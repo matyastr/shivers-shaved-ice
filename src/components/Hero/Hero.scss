@@ -17,15 +17,36 @@
 .hero-subtitle {
     color: #fff;
     display: block;
-    font-size: 32px;
+    font-size: 28px;
     text-align: center;
     text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
+
+    @include breakpoint-tablet {
+        font-size: 32px;
+    }
 }
 
 .hero-title {
     color: #fff;
-    font-size: 84px;
+    font-size: 52px;
     font-weight: 900;
+    max-width: 340px;
+    padding: 0 32px;
     text-align: center;
     text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
+
+    @include breakpoint-phone-large {
+        font-size: 64px;
+        max-width: 420px;
+    }
+
+    @include breakpoint-tablet {
+        font-size: 76px;
+        max-width: 620px;
+    }
+
+    @include breakpoint-desktop {
+        font-size: 84px;
+        max-width: 740px;
+    }
 }

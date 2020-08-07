@@ -56,9 +56,9 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <Link className="navbar-item" to="/about">
+            {/* <Link className="navbar-item" to="/about">
               Home
-            </Link>
+            </Link> */}
             <Link className="navbar-item" to="/menu">
               Our Menu
             </Link>
@@ -70,6 +70,9 @@ const Navbar = class extends React.Component {
           <div className="navbar-brand">
               <span className="navbar-brand-name font-secondary">
                 Sprink & Jimmy's
+              </span>
+              <span className="navbar-brand-city">
+                Gibsonia, PA
               </span>
           </div>
 

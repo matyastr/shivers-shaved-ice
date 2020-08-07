@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: ICE CREAM PARLOR
+title: ICE CREAM LIKE IT USED TO BE
 image: /img/ice-cream-tops.jpg
 heading: ICE CREAM PARLOR
-subheading: Since 2020
+subheading: Established 2020
 mainpitch:
   title: Why Kaldi
   description: >

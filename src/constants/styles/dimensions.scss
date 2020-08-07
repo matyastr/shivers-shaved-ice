@@ -1,1 +1,30 @@
 $navbar-height: 100px;
+
+$phone-large-width: 600px;
+$tablet-width: 768px;
+$desktop-width: 1100px;
+$desktop-large-width: 1400px;
+
+@mixin breakpoint-phone-large {
+    @media (min-width: #{$phone-large-width}) {
+      @content;
+    }
+}
+
+@mixin breakpoint-tablet {
+    @media (min-width: #{$tablet-width}) {
+        @content;
+    }
+}
+
+@mixin breakpoint-desktop {
+    @media (min-width: #{$desktop-width}) {
+        @content;
+    }
+}
+
+@mixin breakpoint-desktop-large {
+    @media (min-width: #{$desktop-large-width}) {
+        @content;
+    }
+}
