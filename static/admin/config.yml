@@ -70,5 +70,5 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "menu-page"}
           - {label: Heading, name: heading, widget: string}
-          - {label: Introduction, name: introduction, widget: markdown}
-          - {label: Menu, name: menu, widget: list, fields: [{label: "Menu Category", name: category, widget: list, fields: [{label: "Title", name: categoryTitle, widget: string },{label: "Description", name: categoryDescription, widget: markdown},{label: "Image", name: categoryImage, widget: image},{label: "Items", name: categoryItems, widget: list, fields: [{label: "Name", name: itemName, widget: "string"},{label: "Description", name: itemDescription, widget: "string"},{label: "Price", name: itemPrice, widget: "string"}]}]}]}
+          - {label: Introduction, name: introduction, widget: markdown, required: false}
+          - {label: Menu, name: menu, widget: list, fields: [{label: "Menu Category", name: category, widget: list, fields: [{label: "Title", name: categoryTitle, widget: string },{label: "Description", name: categoryDescription, widget: markdown, required: false},{label: "Image", name: categoryImage, widget: image},{label: "Items", name: categoryItems, widget: list, fields: [{label: "Name", name: itemName, widget: "string"},{label: "Description", name: itemDescription, widget: string, required: false },{label: "Price", name: itemPrice, widget: "string", required: false}]}]}]}
