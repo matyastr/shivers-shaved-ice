@@ -1,8 +1,9 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import './all.sass'
+import Navbar from '../components/Navbar/Navbar'
+import './reset.scss'
+import './base.scss'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
@@ -38,6 +39,12 @@ const TemplateWrapper = ({ children }) => {
           href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
           color="#ff4400"
         />
+
+        <link
+          href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Work+Sans:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+          rel="stylesheet"
+        />
+
         <meta name="theme-color" content="#fff" />
 
         <meta property="og:type" content="business.business" />

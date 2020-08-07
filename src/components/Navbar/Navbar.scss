@@ -1,0 +1,52 @@
+@import '../../constants/styles/color';
+@import '../../constants/styles/dimensions';
+
+.navbar {
+    background: $pink-primary;
+    height: $navbar-height;
+    position: sticky;
+
+    .container {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        padding: 0 32px;
+    }
+}
+
+.navbar-brand {
+    color: $blue-primary;
+    flex: 1 33.3333%;
+    font-size: 36px;
+    text-align: center;
+}
+
+.navbar-social {
+    flex: 1 33.33333%;
+    text-align: right;
+
+    a {
+        align-items: center;
+        background: $blue-primary;
+        border-radius: 50%;
+        color: #fff;
+        display: inline-flex;
+        height: 32px;
+        justify-content: center;
+        margin-left: 16px;
+        width: 32px;
+    }
+}
+
+.navbar-burger {
+    display: none;
+}
+
+.navbar-menu {
+    flex: 1 33.33333%;
+
+    a {
+        margin-right: 24px;
+        text-transform: uppercase;
+    }
+}
