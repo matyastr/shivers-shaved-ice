@@ -1,12 +1,19 @@
 import React from 'react';
 import classnames from 'classnames';
+import ReactMarkdown from 'react-markdown';
 
 import { useInView } from 'react-intersection-observer';
 
 import createSlug from '../../util/slug';
+import MenuSectionItem from './MenuSectionItem';
 import './MenuSection.scss';
 
-const MenuSection = ({ categoryImage, categoryTitle }) => {
+const MenuSection = ({
+    categoryDescription,
+    categoryImage,
+    categoryItems = [],
+    categoryTitle
+}) => {
     const [ref, inView] = useInView({
         threshold: 0,
         triggerOnce: true,
@@ -30,7 +37,24 @@ const MenuSection = ({ categoryImage, categoryTitle }) => {
                     }}
                 />
                 <div className="menu-section-content">
-                    <h1>{categoryTitle}</h1>
+                    <div>
+                        <h2 className="font-secondary">{categoryTitle}</h2>
+                        {
+                            categoryDescription && (
+                                <div className="menu-section-description">
+                                    <ReactMarkdown source={categoryDescription} />
+                                </div>
+                            )
+                        }
+                        {
+                            categoryItems.map(item => (
+                                <MenuSectionItem
+                                    key={item.itemName}
+                                    {...item}
+                                />
+                            ))
+                        }
+                    </div>
                 </div>
             </section>
         </>

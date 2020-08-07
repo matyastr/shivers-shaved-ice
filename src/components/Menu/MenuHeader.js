@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown';
 
 import MenuNav from './MenuNav';
 import './MenuHeader.scss';
@@ -15,7 +16,9 @@ const MenuHeader = ({ heading, introduction, sectionNames }) => {
             <MenuNav sectionNames={sectionNames} />
             {
                 introduction && (
-                    <p className="container menu-header-intro">{introduction}</p>
+                    <p className="container menu-header-intro">
+                        <ReactMarkdown source={introduction} />
+                    </p>
                 )
             }
         </>
