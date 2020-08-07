@@ -18,8 +18,9 @@ const MenuPage = ({ data }) => {
             })}
         />
         {
-            menu.categories.map(category => (
+            menu.categories.map((category, i) => (
                 <MenuSection
+                    data-even-section={i % 2 === 0}
                     key={category.categoryTitle}
                     {...category}
                 />

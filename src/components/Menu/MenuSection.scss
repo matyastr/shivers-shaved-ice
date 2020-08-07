@@ -3,7 +3,7 @@
     height: 500px;
     opacity: 0;
     transform: translate3d(0, 40px, 0);
-    transition: transform 0.5s cubic-bezier(0.55, 0, 1, 0.45), opacity 0.5s cubic-bezier(0.55, 0, 1, 0.45);;
+    transition: transform 0.5s cubic-bezier(0.5, 0, 0.75, 0), opacity 0.5s cubic-bezier(0.5, 0, 0.75, 0);
     width: 100%;
 
     &.menu-section--animate-in {
@@ -20,9 +20,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    order: 0;
+
+    [data-even-section="true"] & {
+        order: 1;
+    }
 }
 
 .menu-section-image {
     background-size: cover;
     background-position: center;
+    order: 1;
+
+    [data-even-section="true"] & {
+        order: 0;
+    }
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import createSlug from '../../util/slug';
 import './MenuNav.scss';
@@ -12,13 +13,13 @@ const MenuNav = ({ sectionNames = [] }) => {
                 </span>
                 {
                     sectionNames.map(name => (
-                        <a
+                        <AnchorLink
                             className="menu-nav-link font-secondary"
                             href={`#${createSlug(name)}`}
                             key={createSlug(name)}
                         >
                             { name }
-                        </a>
+                        </AnchorLink>
                     ))
                 }
             </div>
