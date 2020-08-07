@@ -1,4 +1,5 @@
 @import '../constants/styles/color';
+@import '../constants/styles/dimensions';
 
 @font-face {
   font-family: 'FV-Almelo';
@@ -20,6 +21,14 @@ body {
   padding: 0 16px;
   margin: 0 auto;
   max-width: 1400px;
+
+  @include breakpoint-tablet {
+    padding: 0 24px;
+  }
+
+  @include breakpoint-desktop {
+    padding: 0 32px;
+  }
 }
 
 .font-secondary {
@@ -48,4 +57,9 @@ a.no-hover {
   &:focus, &:hover {
     border-bottom: 0;
   }
+}
+
+h1 {
+  font-size: 54px;
+  font-weight: 900;
 }

@@ -1,0 +1,23 @@
+@import '../../constants/styles/color';
+@import '../../constants/styles/dimensions';
+
+.menu-header {
+    background: $pink-primary;
+    text-align: left;
+
+    @include breakpoint-tablet {
+        text-align: center;
+    }
+
+    h1 {
+        color: $blue-primary;
+        padding: 48px 0 64px;
+        text-transform: uppercase;
+    }
+}
+
+.menu-header-intro {
+    color: $blue-primary;
+    padding-bottom: 32px;
+    padding-top: 32px;
+}

@@ -3,9 +3,8 @@ templateKey: menu-page
 heading: Our Menu
 introduction: We are proud to provide a wide variety of your favorite classic
   ice cream dishes, which are all crafted daily by hand!
-menu: null
 categories:
-  - categoryTitle: Sundae's
+  - categoryTitle: Sundaes
     categoryImage: /img/sundae.jpg
     categoryDescription: |-
       Available in sizes:

@@ -1,2 +1,6 @@
 $pink-primary: #fec3cb;
 $blue-primary: #0f4f7c;
+
+@mixin text-shadow {
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
+}

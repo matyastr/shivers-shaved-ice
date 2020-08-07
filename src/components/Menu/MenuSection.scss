@@ -1,0 +1,28 @@
+.menu-section {
+    display: flex;
+    height: 500px;
+    opacity: 0;
+    transform: translate3d(0, 40px, 0);
+    transition: transform 0.5s cubic-bezier(0.55, 0, 1, 0.45), opacity 0.5s cubic-bezier(0.55, 0, 1, 0.45);;
+    width: 100%;
+
+    &.menu-section--animate-in {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+
+    > div {
+        flex: 0 50%;
+    }
+}
+
+.menu-section-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-section-image {
+    background-size: cover;
+    background-position: center;
+}
