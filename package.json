@@ -30,6 +30,7 @@
     "react-dom": "^16.8.4",
     "react-helmet": "^6.0.0",
     "react-icons": "^3.10.0",
+    "react-intersection-observer": "^8.26.2",
     "uuid": "^7.0.0"
   },
   "keywords": [
