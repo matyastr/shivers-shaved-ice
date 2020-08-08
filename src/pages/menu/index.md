@@ -22,7 +22,7 @@ categories:
       * 1 scoop
       * 2 scoops
 
-
+      ---
 
       Both soft and hard ice cream are available in waffle cones!
     categoryImage: /img/ice-cream.jpg
