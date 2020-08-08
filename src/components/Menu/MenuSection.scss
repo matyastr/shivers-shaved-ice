@@ -40,7 +40,11 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    width: 75%;
+    width: 100%;
+
+    @include breakpoint-desktop {
+        width: 75%;
+    }
 
     li {
         box-sizing: border-box;

@@ -23,7 +23,7 @@ const MenuSection = ({
                 className="menu-section-image"
                 style={{
                     backgroundImage: `url(${
-                        categoryImage ? (!!categoryImage.childImageSharp ? categoryImage.childImageSharp.fluid.src : categoryImage) : '',
+                        categoryImage ? (!!categoryImage.childImageSharp ? categoryImage.childImageSharp.fluid.src : categoryImage) : ''
                     })`,
                 }}
             />
