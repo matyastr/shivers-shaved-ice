@@ -44,4 +44,39 @@ categories:
       - itemName: Pineapple
       - itemName: Marshmallow
       - itemName: Red Raspberry
+  - categoryTitle: Specialty Sundaes
+    categoryImage: /img/ice-cream-sundae-1-.jpg
+    categoryItems:
+      - itemName: Dirt Sundae
+        itemDescription: Vanilla ice cream, crumbled chocolate cookie pieces, and gummy worms
+        itemPrice: $ TBD
+      - itemName: Banana Split
+        itemDescription: The classic. Strawberry, vanilla, and chocolate ice cream with
+          bananas, strawberry sauce, and chocolate sauce.
+        itemPrice: $ TBD
+      - itemName: Turtle Sundae
+        itemDescription: Your choice of ice cream topped with caramel, pecans, and
+          chocolate sauce.
+        itemPrice: $ TBD
+      - itemName: Potato Chip Sundae
+        itemDescription: A mix of two favorites. Your choice of ice cream with crushed
+          classic potato chips.
+        itemPrice: $ TBD
+      - itemName: S'more Sundae
+        itemDescription: An unforgettable mix of vanilla ice cream, hot fudge, and mini
+          marshmallow pieces.
+        itemPrice: $ TBD
+      - itemName: Brownie Sundae
+        itemDescription: Your choice of ice cream piled on top of a bed of brownies and
+          finished with whipped cream.
+        itemPrice: $ TBD
+      - itemName: Strawberry Shortcake
+        itemDescription: A mix of vanilla ice cream and mini cheesecake pieces topped
+          with sliced strawberries and sauce.
+        itemPrice: $ TBD
+      - itemName: Cookie Dough w/ Hot Fudge
+        itemDescription: Cookie dough pieces piled on top of a bed of ice cream and
+          drizzled with hot fudge sauce.
+        itemPrice: $ TBD
+    categoryDescription: Available in size large only
 ---
