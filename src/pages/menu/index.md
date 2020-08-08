@@ -79,4 +79,26 @@ categories:
           drizzled with hot fudge sauce.
         itemPrice: $ TBD
     categoryDescription: Available in size large only
+  - categoryTitle: Milkshakes
+    categoryDescription: |-
+      Available in sizes:
+
+      * Small
+      * Medium
+      * Large
+    categoryImage: /img/milkshake-1-.jpg
+    categoryItems:
+      - itemName: Vanilla
+      - itemName: Chocolate
+      - itemName: Hot Fudge
+      - itemName: Oreo
+      - itemName: Peanut Butter
+      - itemName: Hot Caramel
+      - itemName: Strawberry
+      - itemName: Blueberry
+      - itemName: Pineapple
+      - itemName: Marshmallow
+      - itemName: Rootbeer
+      - itemName: Banana
+      - itemName: Black Raspberry
 ---
