@@ -1,5 +1,4 @@
 import React from 'react';
-import classnames from 'classnames';
 
 import createSlug from '../../util/slug';
 import FadeInUp from '../FadeInUp/FadeInUp';
@@ -17,14 +16,14 @@ const MenuSection = ({
     <FadeInUp>
         <section
             className="menu-section"
-            id={createSlug(categoryTitle)}
+            id={categoryTitle ? createSlug(categoryTitle) : 'new-section'}
             {...props}
         >
             <div
                 className="menu-section-image"
                 style={{
                     backgroundImage: `url(${
-                    !!categoryImage.childImageSharp ? categoryImage.childImageSharp.fluid.src : categoryImage
+                        categoryImage ? (!!categoryImage.childImageSharp ? categoryImage.childImageSharp.fluid.src : categoryImage) : '',
                     })`,
                 }}
             />
