@@ -1,10 +1,8 @@
 import React from 'react';
 import classnames from 'classnames';
-import ReactMarkdown from 'react-markdown';
-
-import { useInView } from 'react-intersection-observer';
 
 import createSlug from '../../util/slug';
+import FadeInUp from '../FadeInUp/FadeInUp';
 import MenuSectionDescription from './MenuSectionDescription';
 import MenuSectionItem from './MenuSectionItem';
 import './MenuSection.scss';
@@ -15,18 +13,10 @@ const MenuSection = ({
     categoryItems = [],
     categoryTitle,
     ...props
-}) => {
-    const [ref, inView] = useInView({
-        threshold: 0,
-        triggerOnce: true,
-    });
-
-    return (
+}) => (
+    <FadeInUp>
         <section
-            className={classnames("menu-section", {
-                "menu-section--animate-in": inView,
-            })}
-            ref={ref}
+            className="menu-section"
             id={createSlug(categoryTitle)}
             {...props}
         >
@@ -61,7 +51,7 @@ const MenuSection = ({
                 </div>
             </div>
         </section>
-    );
-};
+    </FadeInUp>
+);
 
 export default MenuSection;

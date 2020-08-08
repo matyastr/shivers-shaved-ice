@@ -5,7 +5,7 @@ import MenuHeader from '../components/Menu/MenuHeader';
 import MenuSection from '../components/Menu/MenuSection';
 
 export const MenuPageTemplate = ({ menu }) => (
-    <Layout>
+    <>
         <MenuHeader
             heading={menu.heading}
             introduction={menu.introduction}
@@ -22,7 +22,7 @@ export const MenuPageTemplate = ({ menu }) => (
                 />
             ))
         }
-    </Layout>
+    </>
 );
 
 const MenuPage = ({ data }) => {
@@ -30,7 +30,9 @@ const MenuPage = ({ data }) => {
     const { frontmatter: menu } = post;
 
     return (
-        <MenuPageTemplate menu={menu} />
+        <Layout>
+            <MenuPageTemplate menu={menu} />
+        </Layout>
     )
 }
 

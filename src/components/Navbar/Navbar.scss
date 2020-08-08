@@ -102,3 +102,11 @@
         }
     }
 }
+
+.navbar-item--desktop {
+    display: none;
+
+    @include breakpoint-desktop {
+        display: inline-block;
+    }
+}

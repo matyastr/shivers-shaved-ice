@@ -1,5 +1,6 @@
 import React from 'react';
 
+import FadeInUp from '../FadeInUp/FadeInUp';
 import './Hero.scss';
 
 const Hero = ({ image, title, subtitle }) => (
@@ -11,7 +12,7 @@ const Hero = ({ image, title, subtitle }) => (
             })`,
         }}
     >
-        <div>
+        <FadeInUp>
         {
             subtitle && (
                 <span className="hero-subtitle font-cursive">
@@ -26,7 +27,7 @@ const Hero = ({ image, title, subtitle }) => (
                 </h2> 
             )
         }
-        </div>
+        </FadeInUp>
     </section>
 );
 
