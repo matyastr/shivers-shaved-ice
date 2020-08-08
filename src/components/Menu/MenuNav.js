@@ -20,7 +20,7 @@ const MenuNav = ({ sectionNames = [] }) => {
                     Browse Our Menu
                 </span>
                 {
-                    sectionNames.map(name => (
+                    sectionNames.map(name => name ? (
                         <AnchorLink
                             className="menu-nav-link font-secondary"
                             href={`#${createSlug(name)}`}
@@ -28,7 +28,7 @@ const MenuNav = ({ sectionNames = [] }) => {
                         >
                             { name }
                         </AnchorLink>
-                    ))
+                    ) : null)
                 }
             </div>
         </section>
