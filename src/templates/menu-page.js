@@ -55,7 +55,9 @@ export const menuPageQuery = graphql`
                     }
                     categoryDescription
                     categoryItems {
+                        itemDescription
                         itemName
+                        itemPrice
                     }
                 }
             }

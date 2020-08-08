@@ -6,7 +6,7 @@
 
     @include breakpoint-tablet {
         display: flex;
-        height: 500px;
+        min-height: 500px;
 
         > div {
             flex: 0 50%;
@@ -42,6 +42,10 @@
     margin: 0 auto;
     width: 100%;
 
+    .menu-section--block & {
+        display: block;
+    }
+
     @include breakpoint-desktop {
         width: 75%;
     }
@@ -50,6 +54,12 @@
         box-sizing: border-box;
         flex: 0 50%;
         padding: 8px;
+
+        .menu-section--block {
+            display: block;
+            flex: unset;
+            width: 100%;
+        }
     }
 }
 

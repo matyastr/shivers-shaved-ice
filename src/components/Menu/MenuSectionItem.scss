@@ -1,3 +1,25 @@
+@import "../../constants/styles/color";
+
+.menu-section-item-description {
+    color: $blue-light;
+    font-size: 13px;
+    padding: 6px 0 0;
+}
+
 .menu-section-item-name {
+    flex: 1 auto;
     font-size: 18px;
+}
+
+.menu-section-item--left-align {
+    text-align: left;
+}
+
+.menu-section-item-price {
+    flex: 0 auto;
+    font-size: 16px;
+}
+
+.menu-section-item-row {
+    display: flex;
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import classnames from 'classnames';
 
 import createSlug from '../../util/slug';
 import FadeInUp from '../FadeInUp/FadeInUp';
@@ -12,45 +13,51 @@ const MenuSection = ({
     categoryItems = [],
     categoryTitle,
     ...props
-}) => (
-    <FadeInUp>
-        <section
-            className="menu-section"
-            id={categoryTitle ? createSlug(categoryTitle) : 'new-section'}
-            {...props}
-        >
-            <div
-                className="menu-section-image"
-                style={{
-                    backgroundImage: `url(${
-                        categoryImage ? (!!categoryImage.childImageSharp ? categoryImage.childImageSharp.fluid.src : categoryImage) : ''
-                    })`,
-                }}
-            />
-            <div className="menu-section-content">
-                <div>
-                    <h2 className="menu-section-title">{categoryTitle}</h2>
-                    {
-                        categoryDescription && (
-                            <MenuSectionDescription description={categoryDescription} />
-                        )
-                    }
-                    {
-                        categoryItems ? (
-                            <ul className="menu-section-items">
-                                {categoryItems.map(item => (
-                                    <MenuSectionItem
-                                        key={item.itemName}
-                                        {...item}
-                                    />
-                                ))}
-                            </ul>
-                        ) : null
-                    }
+}) => {
+    const showOneLine = categoryItems ? categoryItems.some((item = {}) => item.itemDescription || item.itemPrice) : false;
+    
+    return (
+        <FadeInUp>
+            <section
+                className={classnames("menu-section", {
+                    "menu-section--block": showOneLine,
+                })}
+                id={categoryTitle ? createSlug(categoryTitle) : 'new-section'}
+                {...props}
+            >
+                <div
+                    className="menu-section-image"
+                    style={{
+                        backgroundImage: `url(${
+                            categoryImage ? (!!categoryImage.childImageSharp ? categoryImage.childImageSharp.fluid.src : categoryImage) : ''
+                        })`,
+                    }}
+                />
+                <div className="menu-section-content">
+                    <div>
+                        <h2 className="menu-section-title">{categoryTitle}</h2>
+                        {
+                            categoryDescription && (
+                                <MenuSectionDescription description={categoryDescription} />
+                            )
+                        }
+                        {
+                            categoryItems ? (
+                                <ul className="menu-section-items">
+                                    {categoryItems.map(item => (
+                                        <MenuSectionItem
+                                            key={item.itemName}
+                                            {...item}
+                                        />
+                                    ))}
+                                </ul>
+                            ) : null
+                        }
+                    </div>
                 </div>
-            </div>
-        </section>
-    </FadeInUp>
-);
+            </section>
+        </FadeInUp>
+    );
+};
 
 export default MenuSection;

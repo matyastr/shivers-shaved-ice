@@ -11,15 +11,37 @@
     max-height: calc(100vh - #{$navbar-height});
     min-height: 400px;
     justify-content: center;
+    text-align: center;
     width: 100%;
 }
 
 .hero-subtitle {
-    color: $blue-primary;
-    display: block;
-    font-size: 28px;
+    color: $pink-dark;
+    display: inline-block;
+    font-size: 20px;
+    padding: 4px 8px;
+    position: relative;
     text-align: center;
-    text-shadow: 1px 2px 4px $pink-dark;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    &::before {
+        background: $pink-primary;
+        bottom: 0;
+        content: '';
+        filter: blur(6px);
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 0;
+    }
+
+    .hero-subtitle-text {
+        position: relative;
+        z-index: 1;
+    }
+
 
     @include breakpoint-tablet {
         font-size: 32px;

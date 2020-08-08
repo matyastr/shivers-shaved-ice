@@ -1,7 +1,82 @@
 @import '../../constants/styles/color';
+@import '../../constants/styles/dimensions';
 
-footer {
+.footer {
     background: $blue-primary;
     color: #fff;
     padding: 48px 0;
+}
+
+.footer-copyright {
+    color: $pink-dark;
+    display: block;
+    font-size: 20px;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+
+    @include breakpoint-phone-large {
+        flex-wrap: nowrap;
+    }
+}
+
+.footer-row-content-row {
+    display: block;
+
+    @include breakpoint-tablet {
+        display: flex;
+        max-width: 840px;
+        justify-content: space-between;
+    }
+}
+
+.footer-row-column {
+    box-sizing: border-box;
+    padding: 0 32px 48px 0;
+    max-width: 300px;
+    vertical-align: top;
+
+    strong {
+        display: block;
+        padding: 0 0 12px;
+    }
+}
+
+.footer-row-content {
+    flex: 1 100%;
+    order: 1;
+
+    @include breakpoint-phone-large {
+        flex: 1 auto;
+        order: 0;
+    }
+}
+
+.footer-row-logo {
+    box-sizing: border-box;
+    flex: 0 100%;
+    padding: 0 0 32px;
+    order: 0;
+
+    @include breakpoint-phone-large {
+        flex: 0 80px;
+        order: 1;
+    }
+
+    @include breakpoint-desktop {
+        flex: 0 120px;
+        padding: 0 0 0 32px;
+    }
+
+    img {
+        height: 56px;
+        width: 56px;
+
+        @include breakpoint-desktop {
+            height: 88px;
+            width: 88px;
+        }
+    }
 }

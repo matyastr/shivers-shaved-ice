@@ -15,8 +15,10 @@ const Hero = ({ image, title, subtitle }) => (
         <FadeInUp>
         {
             subtitle && (
-                <span className="hero-subtitle font-cursive">
-                    { subtitle }
+                <span className="hero-subtitle">
+                    <span className="hero-subtitle-text font-secondary">
+                        { subtitle }
+                    </span>
                 </span> 
             )
         }

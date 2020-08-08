@@ -1,0 +1,16 @@
+@import '../../constants/styles/color';
+
+.footer-hours-row {
+    display: flex;
+}
+
+.footer-hours-day {
+    box-sizing: border-box;
+    color: $pink-primary;
+    flex: 0 140px;
+}
+
+.footer-hours-time {
+    flex: 1 auto;
+    padding: 0 0 0 16px;
+}
