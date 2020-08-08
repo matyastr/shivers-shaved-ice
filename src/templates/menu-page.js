@@ -26,29 +26,12 @@ export const MenuPageTemplate = ({ menu }) => (
 );
 
 const MenuPage = ({ data }) => {
-  const { markdownRemark: post } = data;
-  const { frontmatter: menu } = post;
+    const { markdownRemark: post } = data;
+    const { frontmatter: menu } = post;
 
-  return (
-    <Layout>
-        <MenuHeader
-            heading={menu.heading}
-            introduction={menu.introduction}
-            sectionNames={menu.categories.map(category => {
-                return category.categoryTitle || 'Unknown'
-            })}
-        />
-        {
-            menu.categories.map((category, i) => (
-                <MenuSection
-                    data-even-section={i % 2 === 0}
-                    key={category.categoryTitle}
-                    {...category}
-                />
-            ))
-        }
-    </Layout>
-  )
+    return (
+        <MenuPageTemplate menu={menu} />
+    )
 }
 
 export default MenuPage;
