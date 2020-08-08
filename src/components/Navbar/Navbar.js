@@ -67,14 +67,14 @@ const Navbar = class extends React.Component {
             </Link>
           </div>
 
-          <div className="navbar-brand">
+          <Link className="navbar-brand no-hover" to="/">
               <span className="navbar-brand-name font-secondary">
                 Sprink & Jimmy's
               </span>
               <span className="navbar-brand-city">
                 Gibsonia, PA
               </span>
-          </div>
+          </Link>
 
           <div className="navbar-social">
             <a className="no-hover" href="#">

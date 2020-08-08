@@ -23,9 +23,19 @@
     font-size: 36px;
     text-align: center;
     left: 16px;
+    opacity: 1;
     position: absolute;
     top: 16px;
+    transition: opacity 0.3s ease;
     white-space: nowrap;
+
+    &:active {
+        top: 16px;
+    }
+
+    &:hover {
+        opacity: 0.8;
+    }
 
     @include breakpoint-tablet {
         flex: 1 33.3333%;

@@ -1,7 +1,13 @@
 import React from 'react';
 
+import './MenuSectionItem.scss';
+
 const MenuSectionItem = ({ itemName }) => (
-    <p>{itemName}</p>
+    <li>
+        <span className="menu-section-item-name">
+            {itemName}
+        </span>
+    </li>
 );
 
 export default MenuSectionItem;

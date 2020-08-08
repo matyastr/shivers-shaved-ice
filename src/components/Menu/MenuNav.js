@@ -1,12 +1,20 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import classnames from 'classnames';
 
 import createSlug from '../../util/slug';
 import './MenuNav.scss';
 
 const MenuNav = ({ sectionNames = [] }) => {
+    const [isExpanded, setIsExpanded] = React.useState(false);
+
     return (
-        <section className="menu-nav">
+        <section
+            className={classnames("menu-nav", {
+                "menu-nav--expanded": isExpanded,
+            })}
+            onClick={() => setIsExpanded(!isExpanded)}
+        >
             <div className="container">
                 <span className="menu-nav-descriptor font-secondary">
                     Browse Our Menu

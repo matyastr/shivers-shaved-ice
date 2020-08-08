@@ -1,0 +1,18 @@
+.menu-section-description {
+    margin: 0 0 32px;
+
+    ul {
+        margin: 8px 0;
+
+        li {
+            display: inline-block;
+            font-weight: bold;
+            text-transform: uppercase;
+
+            & + li {
+                margin-left: 12px;
+            }
+        }
+    }
+
+}

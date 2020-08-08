@@ -5,6 +5,7 @@ import ReactMarkdown from 'react-markdown';
 import { useInView } from 'react-intersection-observer';
 
 import createSlug from '../../util/slug';
+import MenuSectionDescription from './MenuSectionDescription';
 import MenuSectionItem from './MenuSectionItem';
 import './MenuSection.scss';
 
@@ -39,21 +40,23 @@ const MenuSection = ({
             />
             <div className="menu-section-content">
                 <div>
-                    <h2 className="font-secondary">{categoryTitle}</h2>
+                    <h2 className="menu-section-title">{categoryTitle}</h2>
                     {
                         categoryDescription && (
-                            <div className="menu-section-description">
-                                <ReactMarkdown source={categoryDescription} />
-                            </div>
+                            <MenuSectionDescription description={categoryDescription} />
                         )
                     }
                     {
-                        categoryItems ? categoryItems.map(item => (
-                            <MenuSectionItem
-                                key={item.itemName}
-                                {...item}
-                            />
-                        )) : null
+                        categoryItems ? (
+                            <ul className="menu-section-items">
+                                {categoryItems.map(item => (
+                                    <MenuSectionItem
+                                        key={item.itemName}
+                                        {...item}
+                                    />
+                                ))}
+                            </ul>
+                        ) : null
                     }
                 </div>
             </div>
