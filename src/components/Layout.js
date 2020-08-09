@@ -6,7 +6,6 @@ import './reset.scss'
 import './base.scss'
 import useSiteMetadata from './SiteMetadata'
 
-import { ParallaxProvider } from 'react-scroll-parallax';
 import { withPrefix } from 'gatsby';
 
 const TemplateWrapper = ({ children }) => {
@@ -58,11 +57,9 @@ const TemplateWrapper = ({ children }) => {
         />
       </Helmet>
       <Navbar />
-      <ParallaxProvider>
-        <main>
-          {children}
-        </main>
-      </ParallaxProvider>
+	<main>
+	{children}
+	</main>
       <Footer />
     </div>
   )
