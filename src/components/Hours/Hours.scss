@@ -1,7 +1,7 @@
 @import '../../constants/styles/color';
 @import '../../constants/styles/dimensions';
 
-.footer-hours {
+.hours {
     margin: 0 auto;
     max-width: 260px;
     text-align: left;
@@ -12,17 +12,26 @@
     }
 }
 
-.footer-hours-row {
+.hours-row {
     display: flex;
 }
 
-.footer-hours-day {
+.hours-day {
     box-sizing: border-box;
-    color: $pink-primary;
+    color: $pink-dark;
     flex: 0 140px;
+
+    .hours--dark-bg & {
+        color: $pink-primary;
+    }
 }
 
-.footer-hours-time {
+.hours-time {
+    color: $blue-primary;
     flex: 1 auto;
     padding: 0 0 0 16px;
+
+    .hours--dark-bg & {
+        color: #fff;
+    }
 }

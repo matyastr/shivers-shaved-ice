@@ -1,6 +1,7 @@
 import React from 'react'
 
-import FooterHours from './FooterHours';
+import Address from '../Address/Address';
+import Hours from '../Hours/Hours';
 import './Footer.scss';
 
 const Footer = () => (
@@ -11,12 +12,11 @@ const Footer = () => (
 					<div className="footer-row-content-row">
 						<div className="footer-row-column">
 							<strong>OUR HOURS</strong>
-							<FooterHours />
+							<Hours isDarkBackground />
 						</div>
 						<div className="footer-row-column">
 							<strong>OUR LOCATION</strong>
-							1234 Location TBD<br />
-							Gibsonia, Pennsylvania
+							<Address />
 						</div>
 						<div className="footer-row-column">
 							<strong>GET IN TOUCH</strong>

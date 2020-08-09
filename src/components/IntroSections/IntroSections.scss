@@ -1,0 +1,9 @@
+@import '../../constants/styles/dimensions';
+
+.intro-sections {
+    padding: 0 0 32px;
+
+    @include breakpoint-tablet {
+        padding: 32px 0;
+    }
+}

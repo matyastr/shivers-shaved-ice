@@ -1,0 +1,116 @@
+@import '../../constants/styles/color';
+@import '../../constants/styles/dimensions';
+
+.intro-section {
+    display: block;
+    padding: 12px 0;
+
+    @include breakpoint-tablet {
+        display: flex;
+    }
+}
+
+.intro-section-button {
+    padding: 24px 0 0;
+}
+
+.intro-section-image,
+.intro-section-content {
+    box-sizing: border-box;
+    flex: 0 50%;
+}
+
+.intro-section-content { 
+    padding: 24px 0 0;
+    order: 0;
+
+    .intro-section--even & {
+        order: 1;
+    }
+
+    @include breakpoint-tablet {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    h2 {
+        color: $pink-dark;
+        font-size: 32px;
+        font-weight: 900;
+        padding: 0 0 12px;
+        text-align: center;
+        text-transform: uppercase;
+
+        @include breakpoint-tablet {
+            text-align: left;
+        }
+    }
+}
+
+.intro-section-content-body {
+    line-height: 1.4;
+    text-align: center;
+
+    @include breakpoint-tablet {
+        text-align: left;
+    }
+}
+
+.intro-section-content-inner {
+    max-width: 448px;
+    padding: 0 24px;
+}
+
+.intro-section-image {
+    align-items: center;
+    display: flex;
+    padding: 32px 24px 32px 16px;
+    order: 1;
+
+    @include breakpoint-tablet {
+        .intro-section--even & {
+            order: 0;
+            padding: 32px 0 32px 8px;
+        }
+    }
+}
+
+.intro-section-image-content {
+    border: 12px solid $blue-primary;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    position: relative;
+    width: 100%;
+
+    @include breakpoint-tablet {
+        height: 300px;
+    }
+
+    &::after {
+        border-bottom: 16px solid $pink-dark;
+        border-right: 16px solid $pink-dark;
+        content: '';
+        position: absolute;
+        height: 100%;
+        left: 12px;
+        top: 12px;
+        width: 100%;
+
+        @include breakpoint-tablet {
+            border-bottom: 16px solid $pink-dark;
+            border-left: 16px solid $pink-dark;
+            border-right: 0;
+            left: -28px;
+
+            .intro-section--even & {
+                border-left: 0;
+                border-right: 16px solid $pink-dark;
+                left: 12px;
+            }
+        }
+    }
+}
