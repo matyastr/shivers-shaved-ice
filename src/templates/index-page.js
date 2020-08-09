@@ -6,6 +6,7 @@ import Hero from '../components/Hero/Hero';
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import MenuCallout from '../components/Menu/MenuCallout';
 
 export const IndexPageTemplate = ({
   image,
@@ -22,6 +23,7 @@ export const IndexPageTemplate = ({
       subtitle={subheading}
       title={title}
     />
+    <MenuCallout />
     {/* <section className="section section--gradient">
       <div className="container">
         <div className="section">

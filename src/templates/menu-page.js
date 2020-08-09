@@ -3,6 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import MenuHeader from '../components/Menu/MenuHeader';
 import MenuSection from '../components/Menu/MenuSection';
+import StackedContent from '../components/StackedContent/StackedContent';
 
 export const MenuPageTemplate = ({ menu }) => (
     <>
@@ -13,15 +14,16 @@ export const MenuPageTemplate = ({ menu }) => (
                 return category.categoryTitle || 'Unknown'
             })}
         />
+        <StackedContent>
         {
-            menu.categories.map((category, i) => (
+            menu.categories.map((category) => (
                 <MenuSection
-                    data-even-section={i % 2 === 0}
                     key={category.categoryTitle}
                     {...category}
                 />
             ))
         }
+        </StackedContent>
     </>
 );
 

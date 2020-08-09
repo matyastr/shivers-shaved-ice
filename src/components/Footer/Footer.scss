@@ -5,6 +5,11 @@
     background: $blue-primary;
     color: #fff;
     padding: 48px 0;
+    text-align: center;
+
+    @include breakpoint-tablet {
+        text-align: left;
+    }
 }
 
 .footer-copyright {
@@ -17,7 +22,7 @@
     display: flex;
     flex-wrap: wrap;
 
-    @include breakpoint-phone-large {
+    @include breakpoint-tablet {
         flex-wrap: nowrap;
     }
 }
@@ -34,9 +39,13 @@
 
 .footer-row-column {
     box-sizing: border-box;
-    padding: 0 32px 48px 0;
-    max-width: 300px;
+    padding: 0 0 48px 0;
     vertical-align: top;
+
+    @include breakpoint-tablet {
+        padding: 0 32px 48px 0;
+        max-width: 300px;
+    }
 
     strong {
         display: block;
@@ -48,7 +57,7 @@
     flex: 1 100%;
     order: 1;
 
-    @include breakpoint-phone-large {
+    @include breakpoint-tablet {
         flex: 1 auto;
         order: 0;
     }
@@ -60,7 +69,7 @@
     padding: 0 0 32px;
     order: 0;
 
-    @include breakpoint-phone-large {
+    @include breakpoint-tablet {
         flex: 0 80px;
         order: 1;
     }

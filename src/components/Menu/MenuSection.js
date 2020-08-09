@@ -2,9 +2,9 @@ import React from 'react';
 import classnames from 'classnames';
 
 import createSlug from '../../util/slug';
-import FadeInUp from '../FadeInUp/FadeInUp';
 import MenuSectionDescription from './MenuSectionDescription';
 import MenuSectionItem from './MenuSectionItem';
+import StackedContentRow from '../StackedContent/StackedContentRow';
 import './MenuSection.scss';
 
 const MenuSection = ({
@@ -17,46 +17,35 @@ const MenuSection = ({
     const showOneLine = categoryItems ? categoryItems.some((item = {}) => item.itemDescription || item.itemPrice) : false;
     
     return (
-        <FadeInUp>
-            <section
-                className={classnames("menu-section", {
-                    "menu-section--block": showOneLine,
-                })}
-                id={categoryTitle ? createSlug(categoryTitle) : 'new-section'}
-                {...props}
-            >
-                <div
-                    className="menu-section-image"
-                    style={{
-                        backgroundImage: `url(${
-                            categoryImage ? (!!categoryImage.childImageSharp ? categoryImage.childImageSharp.fluid.src : categoryImage) : ''
-                        })`,
-                    }}
-                />
-                <div className="menu-section-content">
-                    <div>
-                        <h2 className="menu-section-title">{categoryTitle}</h2>
-                        {
-                            categoryDescription && (
-                                <MenuSectionDescription description={categoryDescription} />
-                            )
-                        }
-                        {
-                            categoryItems ? (
-                                <ul className="menu-section-items">
-                                    {categoryItems.map(item => (
-                                        <MenuSectionItem
-                                            key={item.itemName}
-                                            {...item}
-                                        />
-                                    ))}
-                                </ul>
-                            ) : null
-                        }
-                    </div>
-                </div>
-            </section>
-        </FadeInUp>
+        <StackedContentRow
+            image={categoryImage} id={categoryTitle ? createSlug(categoryTitle) : 'new-section'}
+            {...props}
+        >
+            <>
+                <h2 className="menu-section-title">{categoryTitle}</h2>
+                {
+                    categoryDescription && (
+                        <MenuSectionDescription description={categoryDescription} />
+                    )
+                }
+                {
+                    categoryItems ? (
+                        <ul
+                            className={classnames("menu-section-items", {
+                                "menu-section-items--block": showOneLine,
+                            })}
+                        >
+                            {categoryItems.map(item => (
+                                <MenuSectionItem
+                                    key={item.itemName}
+                                    {...item}
+                                />
+                            ))}
+                        </ul>
+                    ) : null
+                }
+            </>
+        </StackedContentRow>
     );
 };
 

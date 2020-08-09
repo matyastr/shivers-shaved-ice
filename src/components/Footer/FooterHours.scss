@@ -1,4 +1,16 @@
 @import '../../constants/styles/color';
+@import '../../constants/styles/dimensions';
+
+.footer-hours {
+    margin: 0 auto;
+    max-width: 260px;
+    text-align: left;
+    width: fit-content;
+
+    @include breakpoint-tablet {
+        margin: 0;
+    }
+}
 
 .footer-hours-row {
     display: flex;

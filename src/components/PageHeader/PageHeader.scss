@@ -1,7 +1,7 @@
 @import '../../constants/styles/color';
 @import '../../constants/styles/dimensions';
 
-.menu-header {
+.page-header {
     background: $pink-primary;
     text-align: left;
 
@@ -21,7 +21,7 @@
     }
 }
 
-.menu-header-intro {
+.page-header-intro {
     color: $blue-primary;
     margin: 12px 0 0;
     max-width: 400px;

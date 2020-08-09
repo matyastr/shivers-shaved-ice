@@ -5,7 +5,9 @@ import Navbar from '../components/Navbar/Navbar'
 import './reset.scss'
 import './base.scss'
 import useSiteMetadata from './SiteMetadata'
-import { withPrefix } from 'gatsby'
+
+import { ParallaxProvider } from 'react-scroll-parallax';
+import { withPrefix } from 'gatsby';
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
@@ -56,7 +58,11 @@ const TemplateWrapper = ({ children }) => {
         />
       </Helmet>
       <Navbar />
-      <div>{children}</div>
+      <ParallaxProvider>
+        <main>
+          {children}
+        </main>
+      </ParallaxProvider>
       <Footer />
     </div>
   )

@@ -1,0 +1,49 @@
+@import '../../constants/styles/color';
+@import '../../constants/styles/dimensions';
+
+.stacked-content-row {
+    width: 100%;
+
+    @include breakpoint-tablet {
+        display: flex;
+        min-height: 500px;
+
+        .stacked-content-row-image,
+        .stacked-content-row-content {
+            flex: 0 50%;
+        }
+    }
+}
+
+.stacked-content-row-content {
+    box-sizing: border-box;
+    color: $blue-primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: 0;
+    padding: 32px;
+    text-align: center;
+
+    .stacked-content-row--inverse & {
+        order: 1;
+    }
+}
+
+.stacked-content-row-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    order: 1;
+    width: 100%;
+
+    @include breakpoint-tablet {
+        background-attachment: unset;
+        height: auto;
+    }
+
+    .stacked-content-row--inverse & {
+        order: 0;
+    }
+}
