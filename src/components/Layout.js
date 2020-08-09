@@ -46,7 +46,9 @@ const TemplateWrapper = ({ children }) => {
           rel="stylesheet"
         />
 
-        <meta name="theme-color" content="#fff" />
+		<link rel="manifest" href={`${withPrefix('/')}site.webmanifest`} />
+
+        <meta name="theme-color" content="#0f4f7c" />
 
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
