@@ -7,7 +7,7 @@ intro:
   - title: Menu
     content: Foo bar
     image: /img/ice-cream.jpg
-tiles: tiles
+tiles: 
   - title: Menu
     content: Foo bar
     image: /img/ice-cream.jpg
