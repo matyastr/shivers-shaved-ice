@@ -38,8 +38,8 @@ collections:
           - {label: "Header Image", name: image, widget: image}
           - {label: "Header Title", name: title, widget: string}
           - {label: "Header Subtext", name: subheading, widget: string}
-          - {label: "Intro Sections", name: intro, widget: list, fields: [{label: Title, name: title, widget: string}, {label: Body Context, name: content, widget: Markdown}, { label: Image, name: image, widget: image }, { label: Button, name: button, required: false, widget: object, fields: [{ label: "Button Text", name: text, widget: string }, { label: "Button Link (e.g. /menu)", name: link, widget: string }] }]}
-          - {label: "Tiled Sections", name: tiles, widget: list, fields: [{label: Title, name: title, widget: string}, {label: Body Context, name: content, widget: Markdown}, { label: Image, name: image, widget: image } ]}
+          - {label: "Intro Sections", name: intro, widget: list, fields: [{label: Title, name: title, widget: string}, {label: Body Context, name: content, widget: markdown}, { label: Image, name: image, widget: image }, { label: Button, name: button, required: false, widget: object, fields: [{ label: "Button Text", name: text, widget: string }, { label: "Button Link (e.g. /menu)", name: link, widget: string }] }]}
+          - {label: "Tiled Sections", name: tiles, widget: list, fields: [{label: Title, name: title, widget: string}, {label: Body Context, name: content, widget: markdown}, { label: Image, name: image, widget: image } ]}
       - file: "src/pages/about/index.md"
         label: "About Page"
         name: "about"
