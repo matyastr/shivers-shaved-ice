@@ -55,3 +55,19 @@ collections:
           - {label: Heading, name: heading, widget: string}
           - {label: Introduction, name: introduction, widget: markdown, required: false}
           - {label: "Menu Categories", name: categories, widget: list, fields: [{label: "Title", name: categoryTitle, widget: string },{label: "Description", name: categoryDescription, widget: markdown, required: false},{label: "Image", name: categoryImage, widget: image},{label: "Items", name: categoryItems, widget: list, required: false, fields: [{label: "Name", name: itemName, widget: "string"},{label: "Description", name: itemDescription, widget: string, required: false },{label: "Price", name: itemPrice, widget: "string", required: false}]}]}
+
+  - name: "templates"
+    label: "Templates"
+    files:
+      - file: "src/templates/parts/address.md"
+        label: "Address"
+        name: "address"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "address-template"}
+          - {label: "Address", name: "address", widget: list, fields: [{ label: "Address Line", name: line, widget: string }]}
+      - file: "src/templates/parts/hours.md"
+        label: "Hours"
+        name: "hours"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "hours-template"}
+          - {label: "Hours List", name: "hours", widget: list, fields: [{ label: "Day(s)", name: day, widget: string }, { label: "Hours", name: time, widget: string } ]}

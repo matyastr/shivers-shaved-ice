@@ -42,7 +42,7 @@ const TemplateWrapper = ({ children }) => {
         />
 
         <link
-          href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Work+Sans:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;0,900;1,400&display=swap"
           rel="stylesheet"
         />
 
