@@ -3,8 +3,7 @@ templateKey: about-page
 path: /about
 title: About us
 introduction: We're working to bring your favorite classics the attention they
-  deserve. Experience the delicious treats that your childhood memories are made
-  of and your children's memories will be made of.
+  deserve.
 sections:
   - title: Our inspiration
     image: /img/retro-welcome-sign.jpg
@@ -24,9 +23,6 @@ sections:
       flavors and experiences inspired by retro ice cream parlors. Whether you
       say sprinkles or jimmies, we have something to share with everyone!
     image: /img/allison.jpg
-    button:
-      text: test
-      link: test
 ---
 ### Shade-grown coffee
 Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.

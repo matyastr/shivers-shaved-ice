@@ -1,35 +1,40 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+
+import IntroSections from '../components/IntroSections/IntroSections';
+import IntroSection from '../components/IntroSections/IntroSection';
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
-
 import PageHeader from '../components/PageHeader/PageHeader';
+import './about-page.scss';
 
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
-
+export const AboutPageTemplate = ({ title, introduction, sections }) => {
   return (
       <>
         <PageHeader heading={title} />
         <div className="container">
-
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="section">
-                <PageContent className="content" content={content} />
-              </div>
+            <div className="about-introduction">
+              { introduction }
             </div>
-          </div>
+            {
+              Array.isArray(sections) && (
+                <IntroSections>
+                  {
+                    sections.map(section => (
+                      <IntroSection
+                        button={section.button}
+                        content={section.content}
+                        image={section.image}
+                        key={section.title}
+                        title={section.title}
+                      />
+                    ))
+                  }
+				</IntroSections>
+			  )}
         </div>
       </>
   )
-}
-
-AboutPageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
-  content: PropTypes.string,
-  contentComponent: PropTypes.func,
 }
 
 const AboutPage = ({ data }) => {
@@ -38,9 +43,7 @@ const AboutPage = ({ data }) => {
   return (
     <Layout>
       <AboutPageTemplate
-        contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        content={post.html}
+        {...post.frontmatter}
       />
     </Layout>
   )
@@ -55,9 +58,24 @@ export default AboutPage
 export const aboutPageQuery = graphql`
   query AboutPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      html
       frontmatter {
         title
+        introduction
+        sections {
+          title
+          content
+          image {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          button {
+            text
+            link
+          }
+        }
       }
     }
   }

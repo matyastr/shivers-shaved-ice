@@ -1,0 +1,17 @@
+@import '../constants/styles/color';
+@import '../constants/styles/dimensions';
+
+.about-introduction {
+    color: $pink-dark;
+    font-size: 22px;
+    line-height: 1.4;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 60px 24px 24px;
+    text-align: center;
+
+    @include breakpoint-tablet {
+        padding: 96px 24px 48px;
+        font-size: 26px;
+    }
+}
