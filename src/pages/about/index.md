@@ -2,8 +2,7 @@
 templateKey: about-page
 path: /about
 title: About us
-introduction: We're working to bring your favorite classics the attention they
-  deserve.
+introduction: We're working to bring your favorite classics the attention they deserve.
 sections:
   - title: Our inspiration
     image: /img/retro-welcome-sign.jpg
@@ -19,8 +18,9 @@ sections:
     content: Hi, I'm Allison. I've always had an affinity for ice cream. In fact,
       I've spent a lot of summer months working in an ice cream shop and make
       sure to indulge in some local favorites any time I travel. I've learned a
-      lot and I've tried a lot, but my favorite have always remained the classic
-      flavors and experiences inspired by retro ice cream parlors. Whether you
-      say sprinkles or jimmies, we have something to share with everyone!
+      lot and I've tried a lot, but my favorites have always remained the
+      classic flavors and experiences inspired by retro ice cream parlors.
+      Whether you say sprinkles or jimmies, we have something to share with
+      everyone!
     image: /img/allison.jpg
 ---
