@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Address from '../Address/Address';
+import contactData from '../../templates/data/contact.json';
 import Hours from '../Hours/Hours';
 import './Footer.scss';
 
@@ -20,8 +21,8 @@ const Footer = () => (
 						</div>
 						<div className="footer-row-column">
 							<strong>GET IN TOUCH</strong>
-							contact@sprinkandjimmys.com<br/>
-							(555) 555 - 5555
+							{contactData.email}<br/>
+							{contactData.phone}
 						</div>
 					</div>
 					<div className="footer-copyright font-secondary">

@@ -31,7 +31,8 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: Introduction, name: introduction, widget: string, required: false}
+          - {label: Sections, name: sections, widget: list, fields: [{label: Title, name: title, widget: string}, {label: Body Context, name: content, widget: markdown}, { label: Image, name: image, widget: image }, { label: Button, name: button, required: false, widget: object, fields: [{ label: "Button Text", name: text, widget: string }, { label: "Button Link (e.g. /menu)", name: link, widget: string }] }]}
       - file: "src/pages/menu/index.md"
         label: "Menu Page"
         name: "menu"
@@ -58,3 +59,11 @@ collections:
         name: "hours"
         fields:
           - {label: "Hours List", name: "hours", widget: list, fields: [{ label: "Day(s)", name: day, widget: string }, { label: "Hours", name: time, widget: string } ]}
+      - file: "src/templates/data/contact.json"
+        extension: json
+        format: json
+        label: "Contact Information"
+        name: "contact"
+        fields:
+          - {label: "Email Address", name: "email", widget: string}
+          - {label: "Phone Number", name: "phone", widget: string}
