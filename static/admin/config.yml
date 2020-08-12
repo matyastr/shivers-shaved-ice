@@ -59,15 +59,17 @@ collections:
   - name: "templates"
     label: "Templates"
     files:
-      - file: "src/templates/parts/address.md"
+      - file: "src/templates/data/address.json"
+        extension: json
+        format: json
         label: "Address"
         name: "address"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "address-template"}
           - {label: "Address", name: "address", widget: list, fields: [{ label: "Address Line", name: line, widget: string }]}
-      - file: "src/templates/parts/hours.md"
+      - file: "src/templates/data/hours.json"
+        extension: json
+        format: json
         label: "Hours"
         name: "hours"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "hours-template"}
           - {label: "Hours List", name: "hours", widget: list, fields: [{ label: "Day(s)", name: day, widget: string }, { label: "Hours", name: time, widget: string } ]}
