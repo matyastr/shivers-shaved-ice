@@ -1,3 +1,10 @@
 {
-  "address": []
+  "address": [
+    {
+      "line": "123 Address TBD"
+    },
+    {
+      "line": "Gibsonia, PA"
+    }
+  ]
 }
