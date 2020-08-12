@@ -1,3 +1,16 @@
 {
-  "hours": []
+  "hours": [
+    {
+      "day": "Mon - Thur",
+      "time": "TBD"
+    },
+    {
+      "day": "Fri & Sat",
+      "time": "TBD"
+    },
+    {
+      "day": "Sun",
+      "time": "TBD"
+    }
+  ]
 }
