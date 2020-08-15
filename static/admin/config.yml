@@ -67,3 +67,11 @@ collections:
         fields:
           - {label: "Email Address", name: "email", widget: string}
           - {label: "Phone Number", name: "phone", widget: string}
+      - file: "src/templates/data/flavors.json"
+        extension: json
+        format: json
+        label: "Flavors of the Week (If there are none, just leave the list empty and save)"
+        name: "flavors"
+        fields:
+          - {label: "Flavors", name: "flavors", widget: list, required: false, fields: [{ label: "Flavor", name: flavor, widget: string, required: false }]}
+

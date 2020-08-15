@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Sprink & Jimmy\'s',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'Sprinky & Jimmy\'s is a retro-inspired ice cream shop in Gibsonia, PA. We are bringing your classic ice cream treats back with the attention they deserve. Whether you call them sprinkles or jimmies, we have something for everyone!',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

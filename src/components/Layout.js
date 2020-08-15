@@ -46,7 +46,7 @@ const TemplateWrapper = ({ children }) => {
           rel="stylesheet"
         />
 
-		<link rel="manifest" href={`${withPrefix('/')}site.webmanifest`} />
+		    <link rel="manifest" href={`${withPrefix('/')}site.webmanifest`} />
 
         <meta name="theme-color" content="#0f4f7c" />
 
@@ -57,6 +57,20 @@ const TemplateWrapper = ({ children }) => {
           property="og:image"
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
+
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-175500208-1"
+        />
+        <script>{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-175500208-1');
+        `}
+        </script>
+
       </Helmet>
       <Navbar />
 	<main>

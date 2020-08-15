@@ -91,6 +91,12 @@
     color: $pink-primary;
     display: block;
     padding: 12px;
+    transition: color 0.2s ease;
+    
+    &:hover {
+        color: #fff;
+        border: 0;
+    }
 
     @include breakpoint-tablet {
         display: inline-block;

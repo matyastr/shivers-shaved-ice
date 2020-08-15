@@ -2,6 +2,8 @@ import React from 'react';
 import { graphql } from 'gatsby';
 
 import Address from '../components/Address/Address';
+import FadeInUp from '../components/FadeInUp/FadeInUp';
+import Flavors from '../components/Flavors/Flavors';
 import Hero from '../components/Hero/Hero';
 import Hours from '../components/Hours/Hours';
 import Layout from '../components/Layout';
@@ -22,6 +24,9 @@ export const IndexPageTemplate = ({
       subtitle={subheading}
       title={title}
     />
+	<FadeInUp>
+		<Flavors />
+	</FadeInUp>
     {
       Array.isArray(intro) && (
         <IntroSections>

@@ -59,8 +59,17 @@
 }
 
 .intro-section-content-inner {
+    margin: 0 auto;
     max-width: 448px;
     padding: 0 24px;
+
+    @include breakpoint-tablet {
+        padding: 0 48px 0 24px;
+
+        .intro-section--even & {
+            padding: 0 24px 0 48px;
+        }
+    }
 }
 
 .intro-section-image {
