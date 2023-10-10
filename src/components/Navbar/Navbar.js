@@ -69,7 +69,7 @@ const Navbar = class extends React.Component {
 
           <Link className="navbar-brand no-hover" to="/">
               <span className="navbar-brand-name font-secondary">
-                Sprink & Jimmy's
+                Shiver's Shaved Ice
               </span>
               <span className="navbar-brand-city">
                 Gibsonia, PA

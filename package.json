@@ -1,6 +1,6 @@
 {
-  "name": "sprink-and-jimmys",
-  "description": "A static website for Sprink & Jimmy's ice cream",
+  "name": "shivers-shaved-ice",
+  "description": "A static website for Shiver's Shaved Ice",
   "version": "1.0.0",
   "dependencies": {
     "bulma": "^0.9.0",

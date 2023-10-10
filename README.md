@@ -1,5 +1,5 @@
-# Sprink & Jimmy's
+# Shiver's Shaved Ice
 
-A static website for Sprink & Jimmy's ice cream shop built with Gatsby on top of Netlify CMS.
+A static website for Shiver's Shaved Ice with Gatsby on top of Netlify CMS.
 
 ### 🍦

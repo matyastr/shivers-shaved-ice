@@ -26,7 +26,7 @@ const Footer = () => (
 						</div>
 					</div>
 					<div className="footer-copyright font-secondary">
-						&copy; Sprink & Jimmy's
+						&copy; Shiver's Shaved Ice
 					</div>
 				</div>
 				<div className="footer-row-logo">
