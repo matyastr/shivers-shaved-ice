@@ -30,42 +30,43 @@ export const IndexPageTemplate = ({
     {
       Array.isArray(intro) && (
         <IntroSections>
-          {
-            intro.map(section => (
-              <IntroSection
-                button={section.button}
-                content={section.content}
-                image={section.image}
-                key={section.title}
-                title={section.title}
-              />
-            ))
-          }
-		  <IntroSection
-			  	key="map"
-				image="/img/shaved-ice-4.jpeg"
-				title="Visit Us"
-				button={{
-					link: 'TDB', // TODO: Add in link to events page
-					text: 'Upcoming Events',
-				}}
-			>
+          <IntroSection
+			  	  key="map"
+				    image="/img/shaved-ice-2.jpeg"
+				    title="COMMING TO AN EVENT NEAR YOU!"
+				    button={{
+					    link: 'TDB', // TODO: Add in link to events page
+					    text: 'Upcoming Events',
+				  }}
+			  >
 				<div className="index-visit">
 					<div className="index-visit-us">
-          We can't wait to see you soon!
+          We are a shaved ice stand dedicated to bringing the best experiences to events near you. 
+          Keep an eye out on our events page and social media for our next stop near you!
 					</div>
 				</div>
-			</IntroSection>
-          {
-              Array.isArray(tiles) && tiles.map(tile => (
-                <IntroSection
-                  key={tile.title}
-                  image={tile.image}
-                  content={tile.content}
-				  title={tile.title}
-                />
-              ))
-          }
+			  </IntroSection>
+        {
+          intro.map(section => (
+            <IntroSection
+              button={section.button}
+              content={section.content}
+              image={section.image}
+              key={section.title}
+              title={section.title}
+            />
+          ))
+        }		  
+        {
+          Array.isArray(tiles) && tiles.map(tile => (
+            <IntroSection
+              key={tile.title}
+              image={tile.image}
+              content={tile.content}
+              title={tile.title}
+            />
+          ))
+        }
         </IntroSections>
       )
     }
