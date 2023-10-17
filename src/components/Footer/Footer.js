@@ -17,7 +17,7 @@ const Footer = () => (
 						</div>
 						<div className="footer-row-column">
 							<strong>OUR LOCATION</strong>
-							<Address />
+							<div>Proudly serving the Greater Pittsburgh Region</div>
 						</div>
 						<div className="footer-row-column">
 							<strong>GET IN TOUCH</strong>

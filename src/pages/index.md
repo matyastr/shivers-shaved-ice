@@ -1,28 +1,22 @@
 ---
 templateKey: index-page
-image: /img/ice-cream-tops.jpg
-title: ICE CREAM LIKE IT USED TO BE
-subheading: Established 2020
+image: /img/shaved-ice-background.png
+title: Creating memories, one cup at a time!
+subheading: Established 2023
 intro:
   - title: Menu
-    content: We are proud to provide a wide variety of your favorite classic ice
-      cream dishes. Our collection ranges from ice cream cones to twisters and
-      speciality sundaes!
-    image: /img/menu-callout.jpg
+    content: We are proud to serve a wide variety of your favorite shaved ice flavors!
+    image: /img/menu-callout.jpeg
     button:
       text: View our menu
       link: /menu
 tiles:
-  - title: Take it to go
-    content: We know times are different right now, so we're specializing in our
-      to-go service. You can get any of our signature soft serve or hard ice
-      cream flavors in a convenient half pint or full pint. Indulge today!
-    image: /img/ice-cream-to-go-1-.jpg
-  - title: Our Philosophy
-    content: Ice cream and I go way back. From working summers at my local ice cream
-      shop to traveling and experiencing ice creams abroad, I've tried it all.
-      But, I always come back to the classic flavors of a retro ice cream parlor
-      and am excited to bring that experience right here to you with Sprink &
-      Jimmy's!
-    image: /img/colorful-sundae-1-.jpg
+  - title: Comming to an event near you!
+    content: We are a shaved ice stand dedicated to bringing the best experiences to events near
+      you. Keep an eye out on our events page and social media for our next stop near you!
+    image: /img/shaved-ice-1.jpeg
+  - title: Our Misson and Philosophy
+    content: We believe that we can bring together our communities and create life-long family 
+      memories, one shaved ice cup at a time.
+    image: /img/shaved-ice-3.jpeg
 ---

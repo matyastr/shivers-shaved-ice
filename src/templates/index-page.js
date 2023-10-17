@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 
 import Address from '../components/Address/Address';
 import FadeInUp from '../components/FadeInUp/FadeInUp';
-import Flavors from '../components/Flavors/Flavors';
+import HeaderBanner from '../components/HeaderBanner/HeaderBanner';
 import Hero from '../components/Hero/Hero';
 import Hours from '../components/Hours/Hours';
 import Layout from '../components/Layout';
@@ -25,7 +25,7 @@ export const IndexPageTemplate = ({
       title={title}
     />
 	<FadeInUp>
-		<Flavors />
+		<HeaderBanner />
 	</FadeInUp>
     {
       Array.isArray(intro) && (
@@ -43,19 +43,16 @@ export const IndexPageTemplate = ({
           }
 		  <IntroSection
 			  	key="map"
-				image="/img/ice-cream-cone.jpg"
+				image="/img/shaved-ice-4.jpeg"
 				title="Visit Us"
 				button={{
-					link: 'https://goo.gl/maps/eaEAwn648Doew5WS6',
-					text: 'Get Directions',
+					link: 'TDB', // TODO: Add in link to events page
+					text: 'Upcoming Events',
 				}}
 			>
 				<div className="index-visit">
-					<div className="index-visit-address">
-						<Address />
-					</div>
-					<div className="index-visit-hours">
-						<Hours />
+					<div className="index-visit-us">
+          We can't wait to see you soon!
 					</div>
 				</div>
 			</IntroSection>
