@@ -12,10 +12,6 @@ const Footer = () => (
 				<div className="footer-row-content">
 					<div className="footer-row-content-row">
 						<div className="footer-row-column">
-							<strong>OUR HOURS</strong>
-							<Hours isDarkBackground />
-						</div>
-						<div className="footer-row-column">
 							<strong>OUR LOCATION</strong>
 							<div>Proudly serving the Greater Pittsburgh Region</div>
 						</div>
@@ -30,7 +26,7 @@ const Footer = () => (
 					</div>
 				</div>
 				<div className="footer-row-logo">
-					<img src="/img/logo-flat.svg" alt="Ice cream cones" />
+					<img src="/img/shivers-logo.png" alt="Shiver's Shaved Ice" />
 				</div>
 			</div>
 		</div>
