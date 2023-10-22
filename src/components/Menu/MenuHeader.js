@@ -12,7 +12,8 @@ const MenuHeader = ({ heading, introduction, sectionNames }) => {
             <div className="menu-header-desktop">
                 <HeaderBanner />
             </div>
-            <MenuNav sectionNames={sectionNames} />
+            {/* TODO: Commenting out until we have more sections */}
+            {/* <MenuNav sectionNames={sectionNames} /> */}
             <div className="menu-header-mobile">
                 <HeaderBanner />
             </div>
