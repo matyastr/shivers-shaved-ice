@@ -1,0 +1,53 @@
+@import '../constants/styles/color';
+@import '../constants/styles/dimensions';
+
+.about-introduction {
+    color: $pink-dark;
+    font-size: 22px;
+    line-height: 1.4;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 60px 24px 24px;
+    text-align: center;
+
+    @include breakpoint-tablet {
+        padding: 96px 24px 48px;
+        font-size: 26px;
+    }
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid #0f4f7c;
+    border-right: 1px solid #0f4f7c;
+    margin-bottom: 50px;
+}
+
+.about-span {
+    padding: 8px 4px;
+    border-left: 1px solid #0f4f7c;
+    border-bottom: 1px solid #0f4f7c;
+}
+
+.about-header {
+    color: #0f4f7c;
+    padding: 8px 4px;
+    border-left: 1px solid #0f4f7c;
+    border-bottom: 1px solid #0f4f7c;
+}
+
+.about-hide-table {
+    color: $blue-primary;
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 24px 24px 24px;
+    text-align: center;
+
+    @include breakpoint-tablet {
+        padding: 24px 24px 48px;
+        font-size: 20px;
+    }
+}
