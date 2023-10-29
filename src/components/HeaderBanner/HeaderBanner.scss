@@ -1,0 +1,29 @@
+@import '../../constants/styles/color';
+@import '../../constants/styles/dimensions';
+
+.headerbanner {
+    background: $pink-dark;
+    color: $blue-primary;
+    padding: 24px 0;
+
+    .container {
+        @include breakpoint-tablet {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+.headerbanner-header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.headerbanner-title {
+    display: inline-block;
+    color: inherit;
+    font-size: 24px;
+    padding: 4px 0 0 16px;
+}

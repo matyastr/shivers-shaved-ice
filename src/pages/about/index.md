@@ -2,25 +2,31 @@
 templateKey: about-page
 path: /about
 title: About us
-introduction: We're working to bring your favorite classics the attention they deserve.
+introduction: We believe that we can bring together our communities and create life-long 
+  family memories, one shaved ice cup at a time.
 sections:
   - title: Our inspiration
-    image: /img/retro-welcome-sign.jpg
-    content: Sometimes the simpler things are, the better! What's not to love about
-      a classic ice cream parlor? From the retro-themed decor to the tall soft
-      serve cone covered in sprinkles (or jimmies!), they scream nostalgia to
-      me. We're bringing all of those feelings to the forefront with Sprink &
-      Jimmy's!
+    image: /img/shaved-ice-5.jpeg
+    content: Some of our favorite family memories have come from getting shaved ice and
+      and spending that time together. Life moves way too fast. We believe its best to
+      slow down, grab a cup, sit down, and enjoy spending time with one another.
     button:
-      text: Check out our menu
-      link: /menu
-  - title: About me
-    content: Hi, I'm Allison. I've always had an affinity for ice cream. In fact,
-      I've spent a lot of summer months working in an ice cream shop and make
-      sure to indulge in some local favorites any time I travel. I've learned a
-      lot and I've tried a lot, but my favorites have always remained the
-      classic flavors and experiences inspired by retro ice cream parlors.
-      Whether you say sprinkles or jimmies, we have something to share with
-      everyone!
+      text: upcoming events
+      link: /events
+  - title: About us
+    content: We are Allison and Tim. We've always had an affinity for shaved ice, ice
+      cream, and all frozen desserts! We make it a point to regularly stop for a tasty treat, 
+      either locally or while travelling.
+      
+      Allison brings years of experience in the ice cream industry and holds an MBA. She 
+      spent many years working at a local ice cream shop learning the skills needed for the 
+      frozen dessert industry. 
+
+      Tim has worked many years in the software engineering industry. He brings an 
+      entrepreneurial and problem-solving mind-set to Shiver's and has always had a dream of 
+      owning our own business. 
+      
+      We are excited to bring our skills and talents together to make Shiver's Shave Ice
+      a success!
     image: /img/allison.jpg
 ---
