@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 
 import Address from '../components/Address/Address';
 import FadeInUp from '../components/FadeInUp/FadeInUp';
-import Flavors from '../components/Flavors/Flavors';
+import HeaderBanner from '../components/HeaderBanner/HeaderBanner';
 import Hero from '../components/Hero/Hero';
 import Hours from '../components/Hours/Hours';
 import Layout from '../components/Layout';
@@ -25,50 +25,48 @@ export const IndexPageTemplate = ({
       title={title}
     />
 	<FadeInUp>
-		<Flavors />
+		<HeaderBanner />
 	</FadeInUp>
     {
       Array.isArray(intro) && (
         <IntroSections>
-          {
-            intro.map(section => (
-              <IntroSection
-                button={section.button}
-                content={section.content}
-                image={section.image}
-                key={section.title}
-                title={section.title}
-              />
-            ))
-          }
-		  <IntroSection
-			  	key="map"
-				image="/img/ice-cream-cone.jpg"
-				title="Visit Us"
-				button={{
-					link: 'https://goo.gl/maps/eaEAwn648Doew5WS6',
-					text: 'Get Directions',
-				}}
-			>
+          <IntroSection
+			  	  key="map"
+				    image="/img/shaved-ice-2.jpeg"
+				    title="COMMING TO AN EVENT NEAR YOU!"
+				    button={{
+					    link: 'TDB', // TODO: Add in link to events page
+					    text: 'Upcoming Events',
+				  }}
+			  >
 				<div className="index-visit">
-					<div className="index-visit-address">
-						<Address />
-					</div>
-					<div className="index-visit-hours">
-						<Hours />
+					<div className="index-visit-us">
+          We are a shaved ice stand dedicated to bringing the best experiences to events near you. 
+          Keep an eye out on our events page and social media for our next stop near you!
 					</div>
 				</div>
-			</IntroSection>
-          {
-              Array.isArray(tiles) && tiles.map(tile => (
-                <IntroSection
-                  key={tile.title}
-                  image={tile.image}
-                  content={tile.content}
-				  title={tile.title}
-                />
-              ))
-          }
+			  </IntroSection>
+        {
+          intro.map(section => (
+            <IntroSection
+              button={section.button}
+              content={section.content}
+              image={section.image}
+              key={section.title}
+              title={section.title}
+            />
+          ))
+        }		  
+        {
+          Array.isArray(tiles) && tiles.map(tile => (
+            <IntroSection
+              key={tile.title}
+              image={tile.image}
+              content={tile.content}
+              title={tile.title}
+            />
+          ))
+        }
         </IntroSections>
       )
     }

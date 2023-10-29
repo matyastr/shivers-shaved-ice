@@ -59,6 +59,9 @@ const Navbar = class extends React.Component {
             <Link className="navbar-item navbar-item--desktop" to="/">
               Home
             </Link>
+            <Link className="navbar-item" to="/events">
+              Events
+            </Link>
             <Link className="navbar-item" to="/menu">
               Our Menu
             </Link>
@@ -68,8 +71,8 @@ const Navbar = class extends React.Component {
           </div>
 
           <Link className="navbar-brand no-hover" to="/">
-              <span className="navbar-brand-name font-secondary">
-                Sprink & Jimmy's
+              <span className="navbar-brand-name font-business-name">
+                Shiver's Shaved Ice
               </span>
               <span className="navbar-brand-city">
                 Gibsonia, PA

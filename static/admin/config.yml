@@ -40,8 +40,17 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "menu-page"}
           - {label: Heading, name: heading, widget: string}
           - {label: Introduction, name: introduction, widget: markdown, required: false}
-          - {label: "Menu Categories", name: categories, widget: list, fields: [{label: "Title", name: categoryTitle, widget: string },{label: "Description", name: categoryDescription, widget: markdown, required: false},{label: "Image", name: categoryImage, widget: image},{label: "Items", name: categoryItems, widget: list, required: false, fields: [{label: "Name", name: itemName, widget: "string"},{label: "Description", name: itemDescription, widget: string, required: false },{label: "Price", name: itemPrice, widget: "string", required: false}]}]}
-
+          - {label: "Menu Categories", name: categories, widget: list, fields: [{label: "Title", name: categoryTitle, widget: string},{label: "Description", name: categoryDescription, widget: markdown, required: false},{label: "Image", name: categoryImage, widget: image},{label: "Items", name: categoryItems, widget: list, required: false, fields: [{label: "Name", name: itemName, widget: "string"},{label: "Description", name: itemDescription, widget: string, required: false },{label: "Price", name: itemPrice, widget: "string", required: false}]}]}
+      - file: "src/pages/events/index.md"
+        label: "Events Page"
+        name: "events"
+        fields: 
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "events-page"}
+          - {label: Heading, name: heading, widget: string}
+          - {label: Introduction, name: introduction, widget: markdown, required: false}
+          - {label: ShowTable, name: showTable, widget: boolean}
+          - {label: Headers, name: headers, widget: list, fields: [{label: "Column", name: column, widget: string}]}
+          - {label: Events, name: events, widget: list, fields: [{label: "Name", name: name, widget: string},{label: "Date", name: date, widget: string},{label: "Location", name: location, widget: string}]}
   - name: "templates"
     label: "Templates"
     files:

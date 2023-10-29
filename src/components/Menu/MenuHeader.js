@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Flavors from '../Flavors/Flavors';
+import HeaderBanner from '../HeaderBanner/HeaderBanner';
 import MenuNav from './MenuNav';
 import PageHeader from '../PageHeader/PageHeader';
 import './MenuHeader.scss';
@@ -10,11 +10,12 @@ const MenuHeader = ({ heading, introduction, sectionNames }) => {
         <>
             <PageHeader heading={heading} introduction={introduction} />
             <div className="menu-header-desktop">
-                <Flavors />
+                <HeaderBanner />
             </div>
-            <MenuNav sectionNames={sectionNames} />
+            {/* TODO: Commenting out until we have more sections */}
+            {/* <MenuNav sectionNames={sectionNames} /> */}
             <div className="menu-header-mobile">
-                <Flavors />
+                <HeaderBanner />
             </div>
         </>
     );

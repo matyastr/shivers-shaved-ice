@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Sprink & Jimmy\'s',
+    title: 'Shiver\'s shaved ice',
     description:
-      'Sprinky & Jimmy\'s is a retro-inspired ice cream shop in Gibsonia, PA. We are bringing your classic ice cream treats back with the attention they deserve. Whether you call them sprinkles or jimmies, we have something for everyone!',
+      'Shiver\'s Shaved Ice is Pittsburgh\'s premier shaved ice stand. Our mission is to create timeless family memories for our guests through our ice.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
