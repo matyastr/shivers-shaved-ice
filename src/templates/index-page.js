@@ -1,11 +1,9 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 
-import Address from '../components/Address/Address';
 import FadeInUp from '../components/FadeInUp/FadeInUp';
 import HeaderBanner from '../components/HeaderBanner/HeaderBanner';
 import Hero from '../components/Hero/Hero';
-import Hours from '../components/Hours/Hours';
 import Layout from '../components/Layout';
 import IntroSections from '../components/IntroSections/IntroSections';
 import IntroSection from '../components/IntroSections/IntroSection';

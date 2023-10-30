@@ -1,8 +1,6 @@
 import React from 'react'
 
-import Address from '../Address/Address';
 import contactData from '../../templates/data/contact.json';
-import Hours from '../Hours/Hours';
 import './Footer.scss';
 
 const Footer = () => (
