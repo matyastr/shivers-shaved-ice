@@ -5,7 +5,7 @@ import './MenuSectionDescription.scss';
 
 const MenuSectionDescription = ({ description }) => (
     <div className="menu-section-description">
-        <ReactMarkdown source={description} />
+        <ReactMarkdown children={description} />
     </div>
 );
 
