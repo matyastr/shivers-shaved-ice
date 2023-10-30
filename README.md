@@ -1,10 +1,10 @@
-<h1 align=center>Shiver's Shave Ice Website</h1>
+<h1 align=center>Shiver's Shaved Ice Website</h1>
 <div align=center>
   <img src="https://shiverspa.com/img/shivers-logo.png" alt="Shivers Logo" width="400" />
 </div>
 
 <br>
-This is the source code for the Shiver's Shave ice website, the #1 shaved ice stand in the Greater Pittsburgh Region.
+This is the source code for the Shiver's Shaved ice website, the #1 shaved ice stand in the Greater Pittsburgh Region.
 <br>
 <br>
 
