@@ -31,9 +31,9 @@ export const IndexPageTemplate = ({
           <IntroSection
 			  	  key="map"
 				    image="/img/shaved-ice-2.jpeg"
-				    title="COMMING TO AN EVENT NEAR YOU!"
+				    title="COMING TO AN EVENT NEAR YOU!"
 				    button={{
-					    link: 'TDB', // TODO: Add in link to events page
+					    link: '/events',
 					    text: 'Upcoming Events',
 				  }}
 			  >
