@@ -13,11 +13,12 @@ const Footer = () => (
 							<strong>OUR LOCATION</strong>
 							<div>Proudly serving the Greater Pittsburgh Region</div>
 						</div>
-						<div className="footer-row-column">
+						{/* TODO: Need to add in a contact us form
+						 <div className="footer-row-column">
 							<strong>GET IN TOUCH</strong>
 							{contactData.email}<br/>
 							{contactData.phone}
-						</div>
+						</div> */}
 					</div>
 					<div className="footer-copyright font-secondary">
 						&copy; Shiver's Shaved Ice
