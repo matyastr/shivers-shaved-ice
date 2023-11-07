@@ -9,9 +9,9 @@ const PageHeader = ({ heading, introduction }) => (
             <h1>{heading}</h1>
             {
                 introduction && (
-                    <p className="page-header-intro">
+                    <div className="page-header-intro">
                         <ReactMarkdown children={introduction} />
-                    </p>
+                    </div>
                 )
             }
         </div>
