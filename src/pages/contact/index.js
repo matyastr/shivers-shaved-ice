@@ -7,7 +7,7 @@ import "./index.scss";
 
 const heading = "Contact Us";
 const intro =
-  "Please use the below form to inquire about booking Shiver's Shaved Ice at your next event, ask a question, or leave us some feedback! We're always looking for ways to improve!";
+  "Please use the below form to inquire about booking Shiver's Shaved Ice at your next event, ask a question, or leave us some feedback. We're always looking for ways to improve!";
 
 const Index = () => {
   const [state, handleSubmit] = useForm("xzblweok");
