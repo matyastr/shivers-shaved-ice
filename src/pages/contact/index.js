@@ -60,6 +60,19 @@ const Index = () => {
                 </div>
               </div>
               <div className="field">
+                <label className="label" htmlFor={"phone"}>
+                  Phone
+                </label>
+                <div className="control">
+                  <input
+                    className="input"
+                    type={"tel"}
+                    name={"phone"}
+                    id={"phone"}
+                  />
+                </div>
+              </div>
+              <div className="field">
                 <label className="label" htmlFor={"message"}>
                   Message
                 </label>
