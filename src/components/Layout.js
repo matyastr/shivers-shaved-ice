@@ -60,14 +60,14 @@ const TemplateWrapper = ({ children }) => {
 
         <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=UA-175500208-1"
+          src="https://www.googletagmanager.com/gtag/js?id=G-Y5C5WD1J17"
         />
         <script>{`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-
-          gtag('config', 'UA-175500208-1');
+        
+          gtag('config', 'G-Y5C5WD1J17');
         `}
         </script>
 
