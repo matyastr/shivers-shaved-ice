@@ -33,7 +33,7 @@
     @include breakpoint-tablet {
         display: flex;
         max-width: 840px;
-        justify-content: space-between;
+        justify-content: flex-start;
     }
 }
 
@@ -41,6 +41,7 @@
     box-sizing: border-box;
     padding: 0 0 48px 0;
     vertical-align: top;
+    margin-right: 50px;
 
     @include breakpoint-tablet {
         padding: 0 32px 48px 0;
@@ -84,4 +85,13 @@
         width: 307.5px;
         border-radius: 10px;
     }
+}
+
+.footer-contact-link {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-contact-link:hover {
+    color: $pink-dark;
 }

@@ -13,7 +13,6 @@ export const EventsPageTemplate = ({
   headers,
   events,
 }) => {
-  console.log(!showTable);
   return (
     <>
       <PageHeader heading={heading} />

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import HeaderBanner from '../HeaderBanner/HeaderBanner';
-import MenuNav from './MenuNav';
+// import MenuNav from './MenuNav';
 import PageHeader from '../PageHeader/PageHeader';
 import './MenuHeader.scss';
 
