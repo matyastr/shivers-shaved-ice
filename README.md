@@ -4,7 +4,7 @@
 </div>
 
 <br>
-This is the source code for the Shiver's Shaved ice website, the #1 shaved ice stand in the Greater Pittsburgh Region.
+This is the source code for the Shiver's Shaved Ice website, the #1 shaved ice stand in the Greater Pittsburgh Region.
 <br>
 <br>
 
