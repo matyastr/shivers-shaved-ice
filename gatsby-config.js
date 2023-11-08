@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Shiver\'s shaved ice',
+    title: 'Shiver\'s Shaved Ice',
     description:
       'Shiver\'s Shaved Ice is Pittsburgh\'s premier shaved ice stand. Our mission is to create timeless family memories for our guests through our ice.',
   },
