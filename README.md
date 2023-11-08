@@ -1,6 +1,6 @@
 <h1 align=center>Shiver's Shaved Ice Website</h1>
 <div align=center>
-  <img src="https://shiverspa.com/img/shivers-logo.png" alt="Shivers Logo" width="400" />
+  <img src="https://shiverspgh.com/img/shivers-logo.png" alt="Shivers Logo" width="400" />
 </div>
 
 <br>
