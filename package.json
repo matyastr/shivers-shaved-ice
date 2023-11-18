@@ -1,6 +1,6 @@
 {
   "name": "shivers-shaved-ice",
-  "description": "A static website for Shiver's Shaved Ice",
+  "description": "A Gatsby static website for Shivers Shaved Ice, the #1 shaved ice stand in the Greater Pittsburgh, PA Region.",
   "version": "1.0.0",
   "dependencies": {
     "@formspree/react": "^2.5.1",
