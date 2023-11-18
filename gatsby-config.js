@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Shiver\'s Shaved Ice',
+    title: 'Shivers Shaved Ice',
     description:
-      'Shiver\'s Shaved Ice is Pittsburgh\'s premier shaved ice stand. Our mission is to create timeless family memories for our guests through our ice.',
+      'Shivers Shaved Ice is Pittsburgh\'s premier shaved ice stand. Our mission is to create timeless family memories for our guests through our ice.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

@@ -19,11 +19,11 @@ const Footer = () => (
             </div>
           </div>
           <div className="footer-copyright font-secondary">
-            &copy; Shiver's Shaved Ice
+            &copy; Shivers Shaved Ice
           </div>
         </div>
         <div className="footer-row-logo">
-          <img src="/img/shivers-logo.png" alt="Shiver's Shaved Ice" />
+          <img src="/img/shivers-logo.png" alt="Shivers Shaved Ice" />
         </div>
       </div>
     </div>

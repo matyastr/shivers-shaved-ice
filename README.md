@@ -1,10 +1,10 @@
-<h1 align=center>Shiver's Shaved Ice Website</h1>
+<h1 align=center>Shivers Shaved Ice Website</h1>
 <div align=center>
   <img src="https://shiverspgh.com/img/shivers-logo.png" alt="Shivers Logo" width="400" />
 </div>
 
 <br>
-This is the source code for the Shiver's Shaved Ice website, the #1 shaved ice stand in the Greater Pittsburgh Region.
+This is the source code for the Shivers Shaved Ice website, the #1 shaved ice stand in the Greater Pittsburgh Region.
 <br>
 <br>
 
@@ -29,4 +29,4 @@ Production deploys will occur through Netlify. Any PRs open against the master b
 <!-- licence -->
 ## License
 
-Copyright ©2023 Shiver's Shaved Ice
+Copyright ©2023 Shivers Shaved Ice

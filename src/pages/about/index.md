@@ -23,10 +23,10 @@ sections:
       frozen dessert industry. 
 
       Tim has worked many years in the software engineering industry. He brings an 
-      entrepreneurial and problem-solving mind-set to Shiver's and has always had a dream of 
+      entrepreneurial and problem-solving mind-set to Shivers and has always had a dream of 
       owning our own business. 
       
-      We are excited to bring our skills and talents together to make Shiver's Shave Ice
+      We are excited to bring our skills and talents together to make Shivers Shave Ice
       a success!
     image: /img/allison.jpg
 ---

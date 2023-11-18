@@ -75,7 +75,7 @@ const Navbar = class extends React.Component {
 
           <Link className="navbar-brand no-hover" to="/">
               <span className="navbar-brand-name font-business-name">
-                Shiver's Shaved Ice
+                Shivers Shaved Ice
               </span>
               <span className="navbar-brand-city">
                 Gibsonia, PA
