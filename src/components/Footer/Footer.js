@@ -11,7 +11,7 @@ const Footer = () => (
           <div className="footer-row-content-row">
             <div className="footer-row-column">
               <strong>OUR LOCATION</strong>
-              <div>Proudly serving the Greater Pittsburgh Region</div>
+              <div>Proudly serving the Greater Pittsburgh, PA Region</div>
             </div>
             <div className="footer-row-column">
               <strong>GET IN TOUCH</strong>
