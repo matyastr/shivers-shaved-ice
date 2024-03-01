@@ -34,7 +34,8 @@ export const EventsPageTemplate = ({
                 return (
                   <React.Fragment key={index}>
                     <span className="about-span">{event.name}</span>
-                    <span className="about-span">{event.date}</span>
+                    <span className="about-span">{event.dates}</span>
+                    <span className="about-span">{event.times}</span>
                     <span className="about-span">{event.location}</span>
                   </React.Fragment>
                 );
@@ -79,7 +80,8 @@ export const aboutPageQuery = graphql`
         }
         events {
           name
-          date
+          dates
+          times
           location
         }
       }

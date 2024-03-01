@@ -29,4 +29,4 @@ Production deploys will occur through Netlify. Any PRs open against the master b
 <!-- licence -->
 ## License
 
-Copyright ©2023 Shivers Shaved Ice
+Copyright ©2024 Shivers Shaved Ice
