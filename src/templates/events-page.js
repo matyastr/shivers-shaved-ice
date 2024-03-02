@@ -10,40 +10,37 @@ export const EventsPageTemplate = ({
   heading,
   introduction,
   showTable,
-  headers,
   events,
 }) => {
   return (
     <>
       <PageHeader heading={heading} />
       <div className="container">
-        <div className="about-introduction">{introduction}</div>
+        <div className="events-introduction">{introduction}</div>
 
         {showTable && (
-          <div className="about-grid">
-            {Array.isArray(headers) &&
-              headers.map((header, index) => {
-                return (
-                  <span className="about-header" key={index + header.column}>
-                    <strong>{header.column}</strong>
-                  </span>
-                );
-              })}
+          <div className="events-container">
             {Array.isArray(events) &&
               events.map((event, index) => {
                 return (
-                  <React.Fragment key={index}>
-                    <span className="about-span">{event.name}</span>
-                    <span className="about-span">{event.dates}</span>
-                    <span className="about-span">{event.times}</span>
-                    <span className="about-span">{event.location}</span>
-                  </React.Fragment>
+                  <div className="event-block" key={index}>
+                    <div className="event-title">{event.name}</div>
+                    <div className="event-text">{event.dates}</div>
+                    <div className="event-text">{event.times}</div>
+                    <div className="event-text">
+                      {event.address1}
+                      <br />
+                      {event.address2}
+                      <br />
+                      {event.address3}
+                    </div>
+                  </div>
                 );
               })}
           </div>
         )}
         {!showTable && (
-          <div className="about-hide-table">
+          <div className="event-hide-table">
             We have no events booked at the moment, but stay tuned!
           </div>
         )}
@@ -75,14 +72,13 @@ export const aboutPageQuery = graphql`
         heading
         introduction
         showTable
-        headers {
-          column
-        }
         events {
           name
           dates
           times
-          location
+          address1
+          address2
+          address3
         }
       }
     }

@@ -7,11 +7,11 @@
     line-height: 1.4;
     margin: 0 auto;
     max-width: 600px;
-    padding: 60px 24px 24px;
+    padding: 35px 24px 0px 24px;
     text-align: center;
 
     @include breakpoint-tablet {
-        padding: 96px 24px 48px;
+        padding: 50px 24px 5px;
         font-size: 26px;
     }
 }
