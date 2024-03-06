@@ -88,6 +88,7 @@
 .navbar-menu {
     flex: 0 auto;
     white-space: nowrap;
+    margin-top: 15px;
 
     @include breakpoint-tablet {
         flex: 1 33.3333%;

@@ -24,12 +24,14 @@
     margin-left: 8%;
     margin-bottom: 35px;
     max-width: 1200px;
-    background-color: "red";
     text-align: center;
-
+    
     @include breakpoint-tablet {
-        margin-right: 30%;
-        margin-left: 30%;
+        margin-right: 20%;
+        margin-left: 20%;
+        justify-content: space-between;
+        flex-flow: wrap;
+        flex-direction: row;
     }
 }
 
@@ -41,8 +43,12 @@
     border-width: 2px;
     border-style: solid;
     padding: 8px;
-    width: 100%;
     background-color: $pink-primary;
+    width: 80%;
+
+    @include breakpoint-tablet {
+        width: 45%;
+    }
 }
 
 .event-title {
@@ -54,7 +60,7 @@
 
 .event-text {
     color: $blue-primary;
-    margin-bottom: 4px;
+    margin-bottom: 6px;
 }
 
 .events-hide-table {
