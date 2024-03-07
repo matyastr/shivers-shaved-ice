@@ -4,6 +4,7 @@
     padding: 0 0 32px;
 
     @include breakpoint-tablet {
-        padding: 32px 0;
+        padding: 0;
+        margin-bottom: 40px;
     }
 }

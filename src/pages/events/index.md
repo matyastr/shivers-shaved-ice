@@ -16,6 +16,12 @@ events:
     address1: Bairdford Park
     address2: 50 Bairdford Park Rd
     address3: Gibsonia, PA 15044
+  - name: CrossFit AIM Ariel WOD
+    dates: 5/11/24
+    times: 7:30 am - 12:00 pm 
+    address1: CrossFit AIM
+    address2: 4318 Bryant Rd
+    address3: Allison Park, PA 15101
   - name: Deer Lakes Youth Baseball Freedom Classic Tournament
     dates: 7/13/24
     times: Time TBD

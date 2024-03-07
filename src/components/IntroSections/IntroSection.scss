@@ -52,6 +52,7 @@
 .intro-section-content-body {
     line-height: 1.4;
     text-align: center;
+    color: $blue-primary;
 
     @include breakpoint-tablet {
         text-align: left;

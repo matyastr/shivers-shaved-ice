@@ -6,7 +6,7 @@ introduction: We believe that we can bring together our communities and create l
   family memories, one shaved ice cup at a time.
 sections:
   - title: Our inspiration
-    image: /img/shaved-ice-5.jpeg
+    image: /img/IMG_9682.png
     content: Some of our favorite family memories have come from getting shaved ice and
       and spending that time together. Life moves way too fast. We believe its best to
       slow down, grab a cup, sit down, and enjoy spending time with one another.

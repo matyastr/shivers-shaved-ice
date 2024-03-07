@@ -14,5 +14,5 @@ tiles:
   - title: Our Misson and Philosophy
     content: We believe that we can bring together our communities and create life-long family 
       memories, one shaved ice cup at a time.
-    image: /img/shaved-ice-3.jpeg
+    image: /img/IMG_9692.png
 ---
