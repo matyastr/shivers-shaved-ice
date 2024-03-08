@@ -61,3 +61,26 @@
   font-size: 30px;
   margin-bottom: 10px;
 }
+
+.submitButton {
+  background-color: $pink-primary;
+  color: $blue-primary;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+
+  &:hover {
+    background-color: $pink-dark;
+    color: $blue-primary;
+  }
+
+  &:active {
+    background-color: $blue-light;
+    color: white;
+  }
+}
