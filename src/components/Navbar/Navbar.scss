@@ -108,6 +108,6 @@
     display: none;
 
     @include breakpoint-desktop {
-        display: inline-block;
+        display: inline;
     }
 }
