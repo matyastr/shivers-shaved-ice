@@ -40,7 +40,7 @@ events:
     address1: Bairdford Park
     address2: 50 Bairdford Park Rd
     address3: Gibsonia, PA 15044
-  - name: Marshall Community Day
+  - name: Marshall Township Community Day
     dates: 8/24/24
     times: 4 pm - 9:30 pm
     address1: Knob Hill Community Park
