@@ -12,7 +12,7 @@ events:
     address3: Ford City, PA 16226
   - name: Deer Lakes Youth Baseball Opening Day
     dates: 5/4/24
-    times: Time TBD
+    times: 11 am - 4 pm
     address1: Bairdford Park
     address2: 50 Bairdford Park Rd
     address3: Gibsonia, PA 15044
