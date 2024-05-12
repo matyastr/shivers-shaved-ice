@@ -3,8 +3,6 @@ import React from "react";
 import "./MenuSectionItem.scss";
 
 const MenuSectionItem = ({ itemDescription, itemName, itemPrice }) => {
-  console.log(itemDescription, itemName);
-
   return (
     <li className="menu-section-item-list">
       <div className="menu-section-item-row">

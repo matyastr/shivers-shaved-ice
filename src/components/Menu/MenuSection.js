@@ -15,11 +15,7 @@ const MenuSection = ({
   ...props
 }) => {
   const showOneLine = false;
-  //   const showOneLine = categoryItems
-  //     ? categoryItems.some((item = {}) => item.itemDescription || item.itemPrice)
-  //     : false;
-
-  console.log(categoryItems[0]);
+  
   return (
     <StackedContentRow
       image={categoryImage}
