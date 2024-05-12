@@ -10,18 +10,6 @@ events:
     address1: Ford City Memorial Park 
     address2: Ford City Rd
     address3: Ford City, PA 16226
-  - name: Deer Lakes Youth Baseball Opening Day
-    dates: 5/4/24
-    times: 11 am - 4 pm
-    address1: Bairdford Park
-    address2: 50 Bairdford Park Rd
-    address3: Gibsonia, PA 15044
-  - name: CrossFit AIM Ariel WOD
-    dates: 5/11/24
-    times: 7:30 am - 12 pm 
-    address1: CrossFit AIM
-    address2: 4318 Bryant Rd
-    address3: Allison Park, PA 15101
   - name: Mars Maker Markets
     dates: 6/21/24, 7/19/24, 8/16/24, 9/13/24
     times: 4 pm - 8 pm 

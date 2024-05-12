@@ -30,7 +30,7 @@ export const IndexPageTemplate = ({
         <IntroSections>
           <IntroSection
 			  	  key="map"
-				    image="/img/IMG_9686.png"
+				    image="/img/ShiversShavedIce3.jpeg"
 				    title="COMING TO AN EVENT NEAR YOU!"
 				    button={{
 					    link: '/events',
