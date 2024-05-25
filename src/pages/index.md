@@ -2,7 +2,7 @@
 templateKey: index-page
 image: /img/shaved-ice-background.png
 title: Creating memories, one cup at a time!
-subheading: Established 2023
+subheading: Established 2024
 intro:
   - title: Menu
     content: We are proud to serve a wide variety of your favorite shaved ice flavors!

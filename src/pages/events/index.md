@@ -5,7 +5,7 @@ introduction: We are looking forward to visiting an event near you!
 showTable: true
 events:
   - name: Ford City Food Truck Fridays
-    dates: 5/3/24, 5/7/24, 8/2/24, 9/6/24, 10/4/24
+    dates: 5/3/24, 6/7/24, 8/2/24, 9/6/24, 10/4/24
     times: 5 pm - 8 pm
     address1: Ford City Memorial Park 
     address2: Ford City Rd
