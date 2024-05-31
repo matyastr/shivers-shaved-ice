@@ -20,6 +20,10 @@ events:
     address1: Ohio Township Community Park
     address2: 325 Nicholson Road
     address3: Sewickley, PA 15143
+  - name: Butler Cruise-A-Palooza
+    dates: 6/23/24
+    times: 10 am - 5 pm
+    address1: Downtown Butler, PA
   - name: Hampton Farmers Market
     dates: 6/26/24, 7/24/24, 8/21/24, 9/25/24
     times: 3 pm - 7 pm
@@ -30,6 +34,12 @@ events:
     dates: 7/4/24
     times: 12 pm - 4 pm
     address1: Downtown Mars, PA
+  - name: Ford City Celebration in the Park
+    dates: 7/6/24
+    times: TBD
+    address1: Ford City Memorial Park 
+    address2: Ford City Rd
+    address3: Ford City, PA 16226
   - name: Deer Lakes Youth Baseball Freedom Classic Tournament
     dates: 7/13/24
     times: Time TBD
@@ -79,7 +89,5 @@ events:
   - name: Butler Fall Festival
     dates: 9/28/24
     times: 11 am - 6 pm
-    address1: Butler City
-    address2: 259 S Main St
-    address3: Butler, PA 16001
+    address1: Downtown Butler, PA
 ---
