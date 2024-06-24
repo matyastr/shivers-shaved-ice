@@ -5,41 +5,29 @@ introduction: We are looking forward to visiting an event near you!
 showTable: true
 events:
   - name: Ford City Food Truck Fridays
-    dates: 5/3/24, 6/7/24, 8/2/24, 9/6/24, 10/4/24
+    dates: 8/2/24, 9/6/24, 10/4/24
     times: 5 pm - 8 pm
     address1: Ford City Memorial Park 
     address2: Ford City Rd
     address3: Ford City, PA 16226
   - name: Mars Maker Markets
-    dates: 6/21/24, 7/19/24, 8/16/24, 9/13/24
+    dates: 7/19/24, 8/16/24, 9/13/24
     times: 4 pm - 8 pm 
     address1: Downtown Mars, PA
-  - name: Ohio Township Jr. Games
-    dates: 6/22/24
-    times: 10 am - 12 pm
-    address1: Ohio Township Community Park
-    address2: 325 Nicholson Road
-    address3: Sewickley, PA 15143
-  - name: Butler Cruise-A-Palooza
-    dates: 6/23/24
-    times: 10 am - 5 pm
-    address1: Downtown Butler, PA
   - name: Hampton Farmers Market
     dates: 6/26/24, 7/24/24, 8/21/24, 9/25/24
     times: 3 pm - 7 pm
     address1: Hampton Community Center
     address2: 3101 McCully Road
     address3: Hampton Township, PA, 15101
+  - name: Parker, PA 150th Anniversary Celebration
+    dates: 6/29/24
+    times: 10 am - 9 pm
+    address1: Downtown Parker, PA 
   - name: Mars 4th of July Celebration
     dates: 7/4/24
     times: 12 pm - 4 pm
     address1: Downtown Mars, PA
-  - name: Ford City Celebration in the Park
-    dates: 7/6/24
-    times: TBD
-    address1: Ford City Memorial Park 
-    address2: Ford City Rd
-    address3: Ford City, PA 16226
   - name: Deer Lakes Youth Baseball Freedom Classic Tournament
     dates: 7/13/24
     times: Time TBD
@@ -86,8 +74,4 @@ events:
     address1: Mingo Creek County Park
     address2: Mansion Hill Rd
     address3: Finleyville, PA 15332
-  - name: Butler Fall Festival
-    dates: 9/28/24
-    times: 11 am - 6 pm
-    address1: Downtown Butler, PA
 ---
