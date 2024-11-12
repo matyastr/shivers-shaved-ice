@@ -5,6 +5,11 @@
     background: $pink-primary;
     height: $navbar-height;
     position: sticky;
+    padding-bottom: 15px;
+
+    @include breakpoint-tablet {
+        padding-bottom: 0px;
+    }
 
     .container {
         align-items: center;
