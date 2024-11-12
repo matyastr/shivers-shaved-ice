@@ -40,7 +40,7 @@ export const EventsPageTemplate = ({
           </div>
         )}
         {!showTable && (
-          <div className="event-hide-table">
+          <div className="events-hide-table">
             We have no events booked at the moment, but stay tuned!
           </div>
         )}

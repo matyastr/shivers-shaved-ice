@@ -83,10 +83,10 @@ const Navbar = class extends React.Component {
           </Link>
 
           <div className="navbar-social">
-            <a className="no-hover" href="https://www.facebook.com/shiverspgh">
+            <a className="no-hover navbar-social-individual" href="https://www.facebook.com/shiverspgh">
               <FaFacebookF />
             </a>
-            <a className="no-hover" href="https://www.instagram.com/shiverspgh/">
+            <a className="no-hover navbar-social-individual" href="https://www.instagram.com/shiverspgh/">
               <FaInstagram />
             </a>
           </div>
