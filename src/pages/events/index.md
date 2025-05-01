@@ -31,6 +31,11 @@ events:
     dates: 5/17/2025
     times: 8 am - 12 pm
     address1: TBD
+  - name: Lower Valley Little League Game
+    dates: 5/17/2025
+    times: 2 - 5 pm
+    address1: Ruth Alley
+    address2: Springdale, PA 15144
   - name: Ohio Township Soccer Game
     dates: 5/31/2025
     times: 8 am - 12 pm
