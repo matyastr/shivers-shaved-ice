@@ -129,4 +129,8 @@ events:
     times: 10 - 6 pm
     address1: 101 Grand Ave
     address2: Mars, PA 16046
+  - name: Mars Applefest
+    dates: 10/4/25
+    times: 10 - 4 pm
+    address1: Downtown Mars, PA
 ---
