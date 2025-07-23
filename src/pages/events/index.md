@@ -66,6 +66,11 @@ events:
     times: 7 - 9 pm
     address1: 1512 Ingomar Heights Rd
     address2: Pittsburgh, PA 15237
+  - name: Dillner Family Farms Corn and Rib Roast 
+    dates: 7/27/25
+    times: 12 - 4 pm
+    address1: 80 Oak Rd
+    address2: Gibsonia, PA 15237
   - name: Pine Youth Football Practice
     dates: Every Thursday starting 7/31/25 through fall
     times: 7 - 9 pm
