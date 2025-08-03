@@ -4,7 +4,7 @@ heading: Menu
 introduction: We are proud to serve a wide variety of your favorite shaved ice flavors and treats!
 categories:
   - categoryTitle: Flavors
-    categoryImage: /img/machines.jpeg
+    categoryImage: /img/IMG_2844.jpeg
     categoryDescription: |-
       Available in sizes:
 
@@ -42,7 +42,7 @@ categories:
         itemDescription: (dye free)
       - itemName: Sour Spray can be added to any cup!
   - categoryTitle: Mixed Flavors
-    categoryImage: /img/IMG_9686.png
+    categoryImage: /img/IMG_1822.jpeg
     categoryItems:
       - itemName: Bahama Mama
         itemDescription: (watermelon, piña colada)

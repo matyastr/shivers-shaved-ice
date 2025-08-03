@@ -6,7 +6,7 @@ subheading: Established 2024
 intro:
   - title: Menu
     content: We are proud to serve a wide variety of your favorite shaved ice flavors!
-    image: /img/ShiversShavedIce2.jpeg
+    image: /img/IMG_3189_small4.jpeg
     button:
       text: View our menu
       link: /menu
@@ -14,5 +14,5 @@ tiles:
   - title: Our Misson and Philosophy
     content: We believe that we can bring together our communities and create life-long family 
       memories, one shaved ice cup at a time.
-    image: /img/banner.jpeg
+    image: /img/IMG_3204.jpeg
 ---
