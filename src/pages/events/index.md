@@ -16,44 +16,11 @@ events:
     address1: Richland Community Park
     address2: 1157 Van Velsor Dr
     address3: Bakerstown, PA 15007
-  - name: Shaler Softball Tournament
-    dates: 8/10/25
-    times: 10 am - 3 pm
-    address1: Kiwanis Park
-    address2: 399 Wetzel Road
-    address3: Glenshaw, PA 15116
-  - name: Marshall Township Movie Night
-    dates: 8/15/25
-    times: 7 pm - dusk
-    address1: Knob Hill Community Park
-    address2: 415 Knob Rd
-    address3: Wexford, PA 15090
-  - name: Ingomar Swim Club
-    dates: 8/17/25
-    times: 3 - 6 pm
-    address1: 1512 Ingomar Heights Rd
-    address2: Pittsburgh, PA 15237
   - name: Pine Youth Football Practice
     dates: Every Thursday starting 7/31/25 through fall
     times: 7 - 9 pm
     address1: Pine Community Park
     address2: 100 Pine Park Dr
-    address3: Wexford, PA 15090
-  - name: Richland Community Day
-    dates: 8/9/25
-    times: 4 pm - fireworks
-    address1: Richland Community Park
-    address2: 1157 Van Velsor Dr
-    address3: Bakerstown, PA 15007
-  - name: Callery End of Summer Festival
-    dates: 8/16/25
-    times: 10 - 6 pm
-    address1: Callery, PA
-  - name: Marshall Community Day
-    dates: 8/23/25
-    times: 4 pm - fireworks
-    address1: Knob Hill Community Park
-    address2: 415 Knob Rd
     address3: Wexford, PA 15090
   - name: Saxonburg Artisan Festival
     dates: 9/6/25, 9/7/25
