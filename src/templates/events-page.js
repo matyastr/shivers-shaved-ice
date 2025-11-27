@@ -41,7 +41,7 @@ export const EventsPageTemplate = ({
         )}
         {!showTable && (
           <div className="events-hide-table">
-            We have no events booked at the moment, but stay tuned!
+            We have concluded our 2025 season. Thank you to everyone who made it a memorable year! <br /><br /> Want a tasty treat at your 2026 event? Please contact us today!
           </div>
         )}
       </div>
