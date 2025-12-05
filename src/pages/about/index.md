@@ -26,7 +26,6 @@ sections:
       entrepreneurial and problem-solving mind-set to Shivers and has always had a dream of 
       owning our own business. 
       
-      We are excited to bring our skills and talents together to make Shivers Shave Ice
-      a success!
+      We are excited to bring our skills and talents together to make Shivers a success!
     image: /img/allison.jpg
 ---

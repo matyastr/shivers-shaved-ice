@@ -39,7 +39,7 @@ export const IndexPageTemplate = ({
 			  >
 				<div className="index-visit">
 					<div className="index-visit-us">
-          We are a shaved ice vendor dedicated to bringing the best experiences to events near you. 
+          We are a shaved ice and dirty soda vendor dedicated to bringing the best experiences to events near you. 
           Keep an eye out on our events page and social media for our next stop near you!
 					</div>
 				</div>

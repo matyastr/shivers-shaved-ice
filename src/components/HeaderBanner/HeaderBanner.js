@@ -9,7 +9,7 @@ const HeaderBanner = () => {
             <div className="container">
                 <div className="headerbanner-header">
                     <h2 className="headerbanner-title font-secondary">
-                        Pittsburgh's Premier Shaved Ice Experience
+                        Pittsburgh's Premier Shaved Ice & Dirty Soda Experience
                     </h2>
                 </div>
             </div>
