@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Shivers Shaved Ice',
+    title: 'Shivers Shaved Ice and Dirty Sodas',
     description:
       'Shivers Shaved Ice is Pittsburgh\'s premier shaved ice and dirty soda vendor. Our mission is to foster connection among families and communities, one delicious treat at a time!',
   },

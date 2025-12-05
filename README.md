@@ -4,7 +4,7 @@
 </div>
 
 <br>
-This is the source code for the Shivers Shaved Ice website, the #1 shaved ice vendor in the Greater Pittsburgh Region.
+This is the source code for the Shivers Shaved Ice website, Pittsburgh's premier shaved ice and dirty soda vendor.
 <br>
 <br>
 
@@ -29,4 +29,4 @@ Production deploys will occur through Netlify. Any PRs open against the master b
 <!-- licence -->
 ## License
 
-Copyright ©2024 Shivers Shaved Ice
+Copyright ©2025 Sprink and Jimmy's LLC DBO Shivers Shaved Ice
