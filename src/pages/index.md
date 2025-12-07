@@ -10,8 +10,10 @@ intro:
     button:
       text: View our menu
       link: /menu
-tiles:
   - title: Our Misson and Philosophy
     content: Our mission is to foster connection among families and communities, one delicious treat at a time!
     image: /img/IMG_4608.jpeg
+    button:
+      text: Book us Today!
+      link: /contact
 ---

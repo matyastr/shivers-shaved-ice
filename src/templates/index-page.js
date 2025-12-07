@@ -112,17 +112,6 @@ export const pageQuery = graphql`
             link
           }
         }
-        tiles {
-          title
-          image {
-            childImageSharp {
-              fluid(maxWidth: 2048, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          content
-        }
       }
     }
   }
