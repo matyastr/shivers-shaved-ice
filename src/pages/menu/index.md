@@ -5,12 +5,14 @@ introduction: We are proud to serve a wide variety of your favorite shaved ice f
 categories:
   - categoryTitle: Shaved Ice Flavors
     categoryImage: /img/IMG_2844.jpeg
-    categoryDescription: |-
+    categoryDescription: |-      
+      We can mix up to 3 flavors!
+      
       * Available in sizes:
 
-       Small (8 oz) |
-       Medium (12 oz) |
-       Large (16 oz)
+      Small (8 oz) |
+      Medium (12 oz) |
+      Large (16 oz)
     categoryItems:
       - itemName: Banana
       - itemName: Blue Raspberry
@@ -40,9 +42,8 @@ categories:
       - itemName: Watermelon
       - itemName: Wedding Cake
         itemDescription: (dye free)
-      - itemName: Sour Spray can be added to any cup!
   - categoryTitle: Favorite Shaved Ice Mixes
-    categoryImage: /img/IMG_1822.jpeg
+    categoryImage: /img/IMG_3510.jpeg
     categoryItems:
       - itemName: Bahama Mama
         itemDescription: watermelon, piña colada
@@ -106,4 +107,19 @@ categories:
         itemDescription: Sprite, Cotton Candy, Blue Raspberry, and cream
       - itemName: Clean Dirty Shirly
         itemDescription: Sprite, Cherry, and cream
+  - categoryTitle: Toppings
+    categoryImage: /img/IMG_4050.jpeg
+    categoryItems:
+      - itemName: Maraschino Cherries
+      - itemName: Chocolate Chip Cookie
+      - itemName: Cotton Candy
+      - itemName: Crushed Oreos
+      - itemName: Gummy Worms
+      - itemName: Marshmallow Fluff
+      - itemName: Peach Rings
+      - itemName: Rainbow Sour Strips
+      - itemName: Snow Cap
+      - itemName: Sour Spray
+      - itemName: Sprinkles
+      - itemName: Whipped Cream
 ---

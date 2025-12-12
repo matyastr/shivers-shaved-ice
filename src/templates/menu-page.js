@@ -11,9 +11,6 @@ export const MenuPageTemplate = ({ menu }) => (
     <MenuHeader
       heading={menu.heading}
       introduction={menu.introduction}
-      sectionNames={menu.categories.map((category) => {
-        return category.categoryTitle || "Unknown";
-      })}
     />
     <StackedContent>
       {menu.categories.map((category) => (

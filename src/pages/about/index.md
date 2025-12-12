@@ -10,9 +10,6 @@ sections:
     content: Some of our favorite family memories have come from getting shaved ice or ice cream and
       spending that time together. Life moves way too fast. We believe its best to
       slow down, grab a cup, sit down, and enjoy spending time with one another.
-    button:
-      text: upcoming events
-      link: /events
   - title: About us
     content: We are Allison and Tim. We've always had an affinity for shaved ice, ice
       cream, and all frozen desserts! We make it a point to regularly stop for a tasty treat, 

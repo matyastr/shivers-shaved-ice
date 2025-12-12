@@ -64,10 +64,6 @@ export const aboutPageQuery = graphql`
               }
             }
           }
-          button {
-            text
-            link
-          }
         }
       }
     }
