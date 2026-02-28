@@ -9,10 +9,11 @@ events:
     times: 3 - 7 pm
     address1: 2929 McCully Rd
     address2: Allison Park, PA 15101 
-  - name: Franklin Park HOA
+  - name: Sturbridge Neighborhood Food Truck Night
     dates: 4/2/26, 4/30/26, 5/7/26, 6/25/26, 7/9/26
     times: 4:30 - 7 pm
-    address1: Time TBD
+    address1: 1694 Sturbridge drive
+    address2: Sewickley, PA 15143
   - name: PRBSA Kickoff Celebration
     dates: 4/30/26
     times: Time TBD
