@@ -14,24 +14,30 @@ events:
     times: 4:30 - 7 pm
     address1: 1694 Sturbridge drive
     address2: Sewickley, PA 15143
+  - name: PR Youth Lacross Games
+    dates: 4/17/26
+    times: 6 - 8 pm
+    address1: Pine Community Park
+    address1: 100 Pine Park Dr
+    address2: Wexford, PA 15090
   - name: PRBSA Kickoff Celebration
-    dates: 4/30/26
+    dates: 4/18/26
     times: Time TBD
     address1: Richland Community Park
     address2: 1157 Van Velsor Dr
     address3: Bakerstown, PA 15007
-  - name: Ariel Charity WOD
-    dates: 5/9/26
-    times: 10 am - 12 pm
-    address1: CrossFit A.I.M.
-    address2: 4318 Bryant Rd
-    address3: Allison Park, PA 15101  
   - name: Hampton Farmers Market
-    dates: Every Wednesday 6/3/26 - 8/27/26
+    dates: Every Wednesday 6/17/26 - 8/27/26
     times: 3 - 7 pm
     address1: Hampton Community Center
     address2: 3200 Lochner Way
     address3: Allison Park, PA 15101
+  - name: Cranberry Town Square Market
+    dates: Every Friday 6/5/26 - 9/4/26
+    times: 3 - 7 pm
+    address1: Cranberry Twp. Municipal Building
+    address2: 2525 Rochester Road
+    address3: Cranberry Twp. PA 16066
   - name: Richland Swim Club
     dates: 6/9/26, 6/11/26, 6/18/26
     times: Time TBD
@@ -60,6 +66,12 @@ events:
     address1: Bairdford Park
     address2: 50 Bairdford Park Rd
     address3: Gibsonia, PA 15044
+  - name: Richland Community Day
+    dates: 8/8/26
+    times: Time TBD
+    address1: Richland Community Park
+    address2: 1157 Van Velsor Dr
+    address3: Bakerstown, PA 15007
   - name: East Deer Summer Festival
     dates: 8/15
     times: Time TBD
