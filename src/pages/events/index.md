@@ -18,8 +18,8 @@ events:
     dates: 4/17/26
     times: 6 - 8 pm
     address1: Pine Community Park
-    address1: 100 Pine Park Dr
-    address2: Wexford, PA 15090
+    address2: 100 Pine Park Dr
+    address3: Wexford, PA 15090
   - name: PRBSA Kickoff Celebration
     dates: 4/18/26
     times: Time TBD
@@ -49,7 +49,7 @@ events:
     address1: Hartwood Acres Amphitheater
     address2: 4000 Middle Rd
     address3: Allison Park, PA 15101
-  - name: East Deer Summer Picnic
+  - name: DLYB Summer Picnic
     dates: 6/20/26
     times: Time TBD
     address1: 50 Bairdford Park Rd
@@ -66,7 +66,7 @@ events:
     address1: Hampton Community Park
     address2: 3200 Lochner Way
     address3: Allison Park, PA 15101
-  - name: East Deer Freedom Classic
+  - name: DLYB Freedom Classic
     dates: 7/11/26, 7/12/26
     times: Time TBD
     address1: Bairdford Park
