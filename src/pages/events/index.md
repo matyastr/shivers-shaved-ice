@@ -54,6 +54,12 @@ events:
     times: Time TBD
     address1: 50 Bairdford Park Rd
     address2: Gibsonia, PA 15044
+  - name: Pine Farmers Market
+    dates: 7/2/26, 7/16/26, TBD additional dates
+    times: 4 - 6:30 pm
+    address1: Pine Community Park
+    address2: 100 Pine Park Dr
+    address3: Wexford, PA 15090
   - name: Hampton Community Day
     dates: 7/3/26
     times: Time TBD
