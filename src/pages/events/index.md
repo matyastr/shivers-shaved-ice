@@ -26,6 +26,12 @@ events:
     address1: Richland Community Park
     address2: 1157 Van Velsor Dr
     address3: Bakerstown, PA 15007
+  - name: Hampton Soccer Club Senior Rec Night
+    dates: 5/29/26
+    times: 5 - 8 pm
+    address1: Hampton Community Center Soccer Fields
+    address2: 3200 Lochner Way
+    address3: Allison Park, PA 15101
   - name: Hampton Farmers Market
     dates: Every Wednesday 6/17/26 - 8/27/26
     times: 3 - 7 pm
