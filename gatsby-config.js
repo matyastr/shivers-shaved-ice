@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Shivers Shaved Ice and Dirty Sodas',
+    title: 'Shivers Shaved Ice and Dirty Soda',
     description:
-      'Shivers Shaved Ice is Pittsburgh\'s premier shaved ice and dirty soda vendor. Our mission is to foster connection among families and communities, one delicious treat at a time!',
+      'Shivers Shaved Ice is Pittsburgh\'s premier shaved ice and dirty soda vendor serving Gibsonia, Allison Park, McCandlesss, Cranberry, Wexford, Sewickley, Ross, Mars, Franklin Park, and the greater Pittsburgh area.',
+    siteUrl: 'https://www.shiverspgh.com',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -72,6 +73,12 @@ module.exports = {
         purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        output: '/sitemap',
+      },
+    },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }

@@ -23,6 +23,6 @@ sections:
       entrepreneurial and problem-solving mind-set to Shivers and has always had a dream of 
       owning our own business. 
       
-      We are excited to bring our skills and talents together to make Shivers a success!
+      We are proud to serve communities across Pittsburgh's North Hills — including Gibsonia, Allison Park, McCandless, Cranberry, Wexford, Sewickley, Ross, Mars, Franklin Park, and beyond. We are excited to bring our skills and talents together to make Shivers a success!      
     image: /img/allison.jpg
 ---

@@ -39,7 +39,7 @@ export const IndexPageTemplate = ({
 			  >
 				<div className="index-visit">
 					<div className="index-visit-us">
-          We are a shaved ice and dirty soda vendor dedicated to bringing the best experiences to events near you. 
+          We are a mobile shaved ice and dirty soda vendor serving the Pittsburgh North Hills area — Gibsonia, Allison Park, McCandless, Cranberry, Wexford, Sewickley, Ross, Mars, Franklin Park, and beyond.
           Keep an eye out on our events page and social media for our next stop near you!
 					</div>
 				</div>
@@ -71,11 +71,15 @@ export const IndexPageTemplate = ({
   </div>
 )
 
-const IndexPage = ({ data }) => {
+const IndexPage = ({ data, location }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
-    <Layout>
+    <Layout
+      seoTitle="Shivers Shaved Ice & Dirty Soda | Pittsburgh, PA Mobile Vendor"
+      seoDescription="Pittsburgh's premier mobile shaved ice and dirty soda vendor, serving North Hills, Gibsonia, Allison Park, Cranberry, Wexford, and the greater Pittsburgh area."
+      pathname={location.pathname}
+    >
       <IndexPageTemplate {...frontmatter} />
     </Layout>
   )

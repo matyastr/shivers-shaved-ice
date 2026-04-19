@@ -49,11 +49,15 @@ export const EventsPageTemplate = ({
   );
 };
 
-const EventsPage = ({ data }) => {
+const EventsPage = ({ data, location }) => {
   const { markdownRemark: post } = data;
 
   return (
-    <Layout>
+    <Layout
+      seoTitle="Upcoming Events | Find Shivers Shaved Ice and Dirty Soda Near Pittsburgh"
+      seoDescription="See where Shivers Shaved Ice will be next — serving Gibsonia, Allison Park, McCandless, Cranberry, Wexford, Sewickley, Ross, Mars, Franklin Park, and more in the Pittsburgh area."
+      pathname={location.pathname}
+    >
       <EventsPageTemplate {...post.frontmatter} />
     </Layout>
   );

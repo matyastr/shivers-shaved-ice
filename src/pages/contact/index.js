@@ -7,14 +7,18 @@ import "./index.scss";
 
 const heading = "Contact Us";
 const intro =
-  "Please use the below form to inquire about booking Shivers Shaved Ice at your next event, ask a question, or leave us some feedback. We're always looking for ways to improve!";
+  "Please use the below form to inquire about booking Shivers Shaved Ice and Dirty Soda at your next event in the the Pittsburgh, North Hills, or greater Allegheny County area, ask a question, or leave us some feedback. We're always looking for ways to improve!";
 
-const Index = () => {
+const Index = ({ location }) => {
   const [state, handleSubmit] = useForm("xzblweok");
 
   if (state.succeeded) {
     return (
-      <Layout>
+      <Layout
+        seoTitle="Book Shivers Shaved Ice and Dirty Soda for Your Event | Pittsburgh, PA"
+        seoDescription="Book Shivers Shaved Ice & Dirty Soda for your next event in the Pittsburgh, North Hills, or greater Allegheny County area."
+        pathname={location.pathname}
+      >
         <PageHeader heading={heading} introduction={intro} />
         <div className="thankyou_container">
           <h2 className="h2">Thank you for reaching out!</h2>
@@ -25,7 +29,11 @@ const Index = () => {
   }
 
   return (
-    <Layout>
+    <Layout
+      seoTitle="Book Shivers Shaved Ice and Dirty Soda for Your Event | Pittsburgh, PA"
+      seoDescription="Book Shivers Shaved Ice & Dirty Soda for your next event in the Pittsburgh, North Hills, or greater Allegheny County area."
+      pathname={location.pathname}
+    >
       <PageHeader heading={heading} introduction={intro} />
       <section className="section">
         <div className="container">

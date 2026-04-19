@@ -20,12 +20,16 @@ export const MenuPageTemplate = ({ menu }) => (
   </>
 );
 
-const MenuPage = ({ data }) => {
+const MenuPage = ({ data, location }) => {
   const { markdownRemark: post } = data;
   const { frontmatter: menu } = post;
 
   return (
-    <Layout>
+    <Layout
+      seoTitle="Shaved Ice Flavors and Dirty Soda Menu | Shivers Pittsburgh"
+      seoDescription="Browse our full menu of shaved ice flavors, specialty mixes, dirty sodas, and toppings — available at events across Pittsburgh's North Hills."
+      pathname={location.pathname}
+    >
       <MenuPageTemplate menu={menu} />
     </Layout>
   );

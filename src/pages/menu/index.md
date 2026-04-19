@@ -1,7 +1,7 @@
 ---
 templateKey: menu-page
 heading: Menu
-introduction: We are proud to serve a wide variety of your favorite shaved ice flavors and treats!
+introduction: We are proud to serve a wide variety of your favorite shaved ice flavors and treats, available at events across Pittsburgh's North Hills and surrounding communities!
 categories:
   - categoryTitle: Shaved Ice Flavors
     categoryImage: /img/IMG_2844.jpeg

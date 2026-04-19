@@ -32,11 +32,15 @@ export const AboutPageTemplate = ({ title, introduction, sections }) => {
   );
 };
 
-const AboutPage = ({ data }) => {
+const AboutPage = ({ data, location }) => {
   const { markdownRemark: post } = data;
 
   return (
-    <Layout>
+    <Layout
+      seoTitle="About Shivers | Pittsburgh's Premier Mobile Shaved Ice and Dirty Soda Vendor"
+      seoDescription="Meet Allison and Tim, the Pittsburgh-area team behind Shivers — your favorite mobile shaved ice and dirty soda vendor serving the North Hills and greater Pittsburgh region."
+      pathname={location.pathname}
+    >
       <AboutPageTemplate {...post.frontmatter} />
     </Layout>
   );

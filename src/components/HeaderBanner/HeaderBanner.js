@@ -8,9 +8,9 @@ const HeaderBanner = () => {
         <section className="headerbanner">
             <div className="container">
                 <div className="headerbanner-header">
-                    <h2 className="headerbanner-title font-secondary">
+                    <h1 className="headerbanner-title font-secondary">
                         Pittsburgh's Premier Shaved Ice & Dirty Soda Experience
-                    </h2>
+                    </h1>
                 </div>
             </div>
         </section>

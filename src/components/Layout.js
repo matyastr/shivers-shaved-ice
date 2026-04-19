@@ -8,14 +8,39 @@ import useSiteMetadata from './SiteMetadata'
 
 import { withPrefix } from 'gatsby';
 
-const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata()
+const localBusinessSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FoodTruck',
+  name: 'Shivers Shaved Ice',
+  description: 'Mobile shaved ice and dirty soda vendor serving the greater Pittsburgh region.',
+  url: 'https://www.shiverspgh.com',
+  areaServed: [
+    'Pittsburgh, PA',
+    'Gibsonia, PA',
+    'Allison Park, PA',
+    'McCandless, PA',
+    'Cranberry, PA',
+    'Wexford, PA',
+    'Sewickley, PA',
+    'Ross, PA',
+    'Mars, PA',
+    'Franklin Park, PA'
+  ],
+  servesCuisine: ['Shaved Ice', 'Dirty Soda', 'Frozen Desserts'],
+}
+
+const TemplateWrapper = ({ children, seoTitle, seoDescription, pathname }) => {
+  const { title, description, siteUrl } = useSiteMetadata()
+  const pageTitle = seoTitle || title
+  const pageDescription = seoDescription || description
+  const canonicalUrl = pathname ? `${siteUrl}${pathname}` : siteUrl
   return (
     <div>
       <Helmet>
         <html lang="en" />
-        <title>{title}</title>
-        <meta name="description" content={description} />
+        <title>{pageTitle}</title>
+        <meta name="description" content={pageDescription} />
+        <link rel="canonical" href={canonicalUrl} />
 
         <link
           rel="apple-touch-icon"
@@ -46,17 +71,22 @@ const TemplateWrapper = ({ children }) => {
           rel="stylesheet"
         />
 
-		    <link rel="manifest" href={`${withPrefix('/')}site.webmanifest`} />
+	    <link rel="manifest" href={`${withPrefix('/')}site.webmanifest`} />
 
         <meta name="theme-color" content="#0f4f7c" />
 
         <meta property="og:type" content="business.business" />
-        <meta property="og:title" content={title} />
-        <meta property="og:url" content="/" />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={pageDescription} />
+        <meta property="og:url" content={canonicalUrl} />
         <meta
           property="og:image"
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
+
+        <script type="application/ld+json">
+          {JSON.stringify(localBusinessSchema)}
+        </script>
 
         <script
           async
@@ -66,7 +96,7 @@ const TemplateWrapper = ({ children }) => {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-        
+
           gtag('config', 'G-Y5C5WD1J17');
         `}
         </script>
