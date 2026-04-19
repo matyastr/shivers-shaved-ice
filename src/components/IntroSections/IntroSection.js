@@ -28,7 +28,9 @@ const IntroSection = ({ button, content, children, image, isEvenRow, title, }) =
                         <h2>{ title }</h2>
                         <div className="intro-section-content-body">
                         {
-                            content
+                            content && content.split('\n').filter(p => p.trim()).map((para, i) => (
+                                <p key={i}>{para.trim()}</p>
+                            ))
                         }
                         {
                             children

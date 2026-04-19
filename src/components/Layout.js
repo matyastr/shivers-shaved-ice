@@ -14,6 +14,11 @@ const localBusinessSchema = {
   name: 'Shivers Shaved Ice',
   description: 'Mobile shaved ice and dirty soda vendor serving the greater Pittsburgh region.',
   url: 'https://www.shiverspgh.com',
+  image: 'https://www.shiverspgh.com/img/og-image.png',
+  sameAs: [
+    'https://www.facebook.com/shiverspgh',
+    'https://www.instagram.com/shiverspgh/'
+  ],
   areaServed: [
     'Pittsburgh, PA',
     'Gibsonia, PA',
@@ -81,8 +86,15 @@ const TemplateWrapper = ({ children, seoTitle, seoDescription, pathname }) => {
         <meta property="og:url" content={canonicalUrl} />
         <meta
           property="og:image"
-          content={`${withPrefix('/')}img/og-image.jpg`}
+          content={`${withPrefix('/')}img/og-image.png`}
         />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={pageTitle} />
+        <meta name="twitter:description" content={pageDescription} />
+        <meta name="twitter:image" content={`${withPrefix('/')}img/og-image.png`} />
 
         <script type="application/ld+json">
           {JSON.stringify(localBusinessSchema)}

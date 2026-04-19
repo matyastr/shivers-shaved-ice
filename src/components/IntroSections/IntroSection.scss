@@ -54,6 +54,14 @@
     text-align: center;
     color: $blue-primary;
 
+    p {
+        margin-bottom: 1em;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
     @include breakpoint-tablet {
         text-align: left;
     }

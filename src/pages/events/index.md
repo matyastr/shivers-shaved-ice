@@ -4,28 +4,16 @@ heading: Events
 introduction: We are looking forward to visiting an event near you!
 showTable: true
 events:
-  - name: Hampton High School THON
-    dates: 3/27/26
-    times: 3 - 7 pm
-    address1: 2929 McCully Rd
-    address2: Allison Park, PA 15101 
   - name: Sturbridge Neighborhood Food Truck Night
-    dates: 4/2/26, 4/30/26, 5/7/26, 6/25/26, 7/9/26
+    dates: 4/30/26, 5/7/26, 6/25/26, 7/9/26
     times: 4:30 - 7 pm
     address1: 1694 Sturbridge drive
     address2: Sewickley, PA 15143
-  - name: PR Youth Lacross Games
-    dates: 4/17/26
-    times: 6 - 8 pm
-    address1: Pine Community Park
-    address2: 100 Pine Park Dr
-    address3: Wexford, PA 15090
-  - name: PRBSA Kickoff Celebration
-    dates: 4/18/26
-    times: Time TBD
-    address1: Richland Community Park
-    address2: 1157 Van Velsor Dr
-    address3: Bakerstown, PA 15007
+  - name: Ohio Township Soccer Games
+    dates: 4/25/26, 5/2/26, 5/16/26, 5/23/26, 5/30/26, 6/6/26, 6/13/26
+    times: 9:30 am - 12 pm
+    address1: 325 Nicholson Rd
+    address2: Sewickley, PA 15143
   - name: Hampton Soccer Club Senior Rec Night
     dates: 5/29/26
     times: 5 - 8 pm
@@ -78,6 +66,12 @@ events:
     address1: Bairdford Park
     address2: 50 Bairdford Park Rd
     address3: Gibsonia, PA 15044
+  - name: Ohio Township Community Day
+    dates: 7/18/26
+    times: Time TBD
+    address1: Ohio Township Community Park
+    address2: 325 Nicholson Rd
+    address3: Sewickley, PA 15143
   - name: Richland Community Day
     dates: 8/8/26
     times: Time TBD
