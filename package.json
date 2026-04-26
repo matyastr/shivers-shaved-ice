@@ -1,6 +1,6 @@
 {
   "name": "shivers-shaved-ice",
-  "description": "A Gatsby static website for Shivers Shaved Ice, Pittsburgh's premier shaved ice and dirty soda vendor.",
+  "description": "A Gatsby static website for Shivers Shaved Ice & Dirty Soda, Pittsburgh's premier shaved ice and dirty soda vendor.",
   "version": "1.0.0",
   "dependencies": {
     "@formspree/react": "^3.0.0",

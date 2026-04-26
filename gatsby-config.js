@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Shivers Shaved Ice and Dirty Soda',
+    title: 'Shivers Shaved Ice & Dirty Soda',
     description:
-      'Shivers Shaved Ice is Pittsburgh\'s premier shaved ice and dirty soda vendor serving Gibsonia, Allison Park, McCandlesss, Cranberry, Wexford, Sewickley, Ross, Mars, Franklin Park, and the greater Pittsburgh area.',
+      'Shivers is Pittsburgh\'s premier shaved ice and dirty soda vendor serving Gibsonia, Allison Park, McCandlesss, Cranberry, Wexford, Sewickley, Ross, Mars, Franklin Park, and the greater Pittsburgh area.',
     siteUrl: 'https://www.shiverspgh.com',
   },
   plugins: [

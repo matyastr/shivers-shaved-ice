@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
+import { Helmet } from "react-helmet";
 
 import Layout from "../components/Layout";
 import PageHeader from "../components/PageHeader/PageHeader";
@@ -51,15 +52,48 @@ export const EventsPageTemplate = ({
 
 const EventsPage = ({ data, location }) => {
   const { markdownRemark: post } = data;
+  const { events, showTable } = post.frontmatter;
+
+  const eventSchemas =
+    showTable && Array.isArray(events)
+      ? events.map((event) => ({
+          '@context': 'https://schema.org',
+          '@type': 'Event',
+          name: event.name,
+          startDate: event.dates,
+          description: `Find Shivers Shaved Ice & Dirty Soda at ${event.name}`,
+          eventStatus: 'https://schema.org/EventScheduled',
+          eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+          location: {
+            '@type': 'Place',
+            name: event.address1,
+            address: [event.address2, event.address3].filter(Boolean).join(', '),
+          },
+          organizer: {
+            '@type': 'Organization',
+            name: 'Shivers Shaved Ice & Dirty Soda',
+            url: 'https://www.shiverspgh.com',
+          },
+        }))
+      : [];
 
   return (
-    <Layout
-      seoTitle="Upcoming Events | Find Shivers Shaved Ice and Dirty Soda Near Pittsburgh"
-      seoDescription="See where Shivers Shaved Ice will be next — serving Gibsonia, Allison Park, McCandless, Cranberry, Wexford, Sewickley, Ross, Mars, Franklin Park, and more in the Pittsburgh area."
-      pathname={location.pathname}
-    >
-      <EventsPageTemplate {...post.frontmatter} />
-    </Layout>
+    <>
+      {eventSchemas.length > 0 && (
+        <Helmet>
+          <script type="application/ld+json">
+            {JSON.stringify(eventSchemas)}
+          </script>
+        </Helmet>
+      )}
+      <Layout
+        seoTitle="Upcoming Events | Find Shivers Shaved Ice & Dirty Soda Near Pittsburgh"
+        seoDescription="See where Shivers Shaved Ice & Dirty Soda will be next — serving Gibsonia, Allison Park, McCandless, Cranberry, Wexford, Sewickley, Ross, Mars, Franklin Park, and more in the Pittsburgh area."
+        pathname={location.pathname}
+      >
+        <EventsPageTemplate {...post.frontmatter} />
+      </Layout>
+    </>
   );
 };
 

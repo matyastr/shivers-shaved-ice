@@ -7,7 +7,7 @@ import "./index.scss";
 
 const heading = "Contact Us";
 const intro =
-  "Please use the below form to inquire about booking Shivers Shaved Ice and Dirty Soda at your next event in the the Pittsburgh, North Hills, or greater Allegheny County area, ask a question, or leave us some feedback. We're always looking for ways to improve!";
+  "Please use the below form to inquire about booking Shivers Shaved Ice & Dirty Soda at your next event in the the Pittsburgh, North Hills, or greater Allegheny County area, ask a question, or leave us some feedback. We're always looking for ways to improve!";
 
 const Index = ({ location }) => {
   const [state, handleSubmit] = useForm("xzblweok");
@@ -15,7 +15,7 @@ const Index = ({ location }) => {
   if (state.succeeded) {
     return (
       <Layout
-        seoTitle="Book Shivers Shaved Ice and Dirty Soda for Your Event | Pittsburgh, PA"
+        seoTitle="Book Shivers Shaved Ice & Dirty Soda for Your Event | Pittsburgh, PA"
         seoDescription="Book Shivers Shaved Ice & Dirty Soda for your next event in the Pittsburgh, North Hills, or greater Allegheny County area."
         pathname={location.pathname}
       >
@@ -30,7 +30,7 @@ const Index = ({ location }) => {
 
   return (
     <Layout
-      seoTitle="Book Shivers Shaved Ice and Dirty Soda for Your Event | Pittsburgh, PA"
+      seoTitle="Book Shivers Shaved Ice & Dirty Soda for Your Event | Pittsburgh, PA"
       seoDescription="Book Shivers Shaved Ice & Dirty Soda for your next event in the Pittsburgh, North Hills, or greater Allegheny County area."
       pathname={location.pathname}
     >

@@ -11,13 +11,18 @@ import { withPrefix } from 'gatsby';
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'FoodTruck',
+  '@id': 'https://www.shiverspgh.com',
   name: 'Shivers Shaved Ice',
   description: 'Mobile shaved ice and dirty soda vendor serving the greater Pittsburgh region.',
   url: 'https://www.shiverspgh.com',
   image: 'https://www.shiverspgh.com/img/og-image.png',
+  priceRange: '$',
+  telephone: '+17242016159',
+  email: 'info@shiverspgh.com',
   sameAs: [
     'https://www.facebook.com/shiverspgh',
-    'https://www.instagram.com/shiverspgh/'
+    'https://www.instagram.com/shiverspgh/',
+    'https://www.google.com/maps/place/Shivers+Shaved+Ice/@40.4469489,-79.7469335,9z/data=!3m1!4b1!4m6!3m5!1s0xa7a9968c991caa85:0x9a4487ee52950d5d!8m2!3d40.4469489!4d-79.7469334!16s%2Fg%2F11y5w7h94r?entry=ttu&g_ep=EgoyMDI2MDQyMi4wIKXMDSoASAFQAw%3D%3D'
   ],
   areaServed: [
     'Pittsburgh, PA',
@@ -71,6 +76,8 @@ const TemplateWrapper = ({ children, seoTitle, seoDescription, pathname }) => {
           color="#ff4400"
         />
 
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
           href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;0,900;1,400&display=swap"
           rel="stylesheet"

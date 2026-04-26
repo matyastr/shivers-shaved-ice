@@ -1,6 +1,7 @@
 {
-    "name": "Shivers Shaved Ice",
-    "short_name": "Shivers Shaved Ice",
+    "name": "Shivers Shaved Ice & Dirty Soda",
+    "short_name": "Shivers",
+    "start_url": "/",
     "icons": [
         {
             "src": "/favicon.png",
