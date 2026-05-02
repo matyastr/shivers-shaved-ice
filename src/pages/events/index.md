@@ -5,103 +5,105 @@ introduction: We are looking forward to visiting an event near you!
 showTable: true
 events:
   - name: Sturbridge Neighborhood Food Truck Night
-    dates: 4/30/26, 5/7/26, 6/25/26, 7/9/26
+    dates: "2026-04-30, 2026-05-07, 2026-06-25, 2026-07-09"
     times: 4:30 - 7 pm
     address1: 1694 Sturbridge drive
     address2: Sewickley, PA 15143
   - name: Ohio Township Soccer Games
-    dates: 4/25/26, 5/2/26, 5/16/26, 5/23/26, 5/30/26, 6/6/26, 6/13/26
+    dates: "2026-04-25, 2026-05-02, 2026-05-16, 2026-05-23, 2026-05-30, 2026-06-06, 2026-06-13"
     times: 9:30 am - 12 pm
     address1: 325 Nicholson Rd
     address2: Sewickley, PA 15143
   - name: Hampton Soccer Club Senior Rec Night
-    dates: 5/29/26
+    dates: "2026-05-29"
     times: 5 - 8 pm
     address1: Hampton Community Center Soccer Fields
     address2: 3200 Lochner Way
     address3: Allison Park, PA 15101
   - name: Hampton Farmers Market
-    dates: Every Wednesday 6/17/26 - 8/27/26
+    dates: "2026-06-17, 2026-06-24, 2026-07-01, 2026-07-08, 2026-07-15, 2026-07-22, 2026-07-29, 2026-08-05, 2026-08-12, 2026-08-19, 2026-08-26"
+    displayDates: Every Wednesday 6/17/26 - 8/26/26
     times: 3 - 7 pm
     address1: Hampton Community Center
     address2: 3200 Lochner Way
     address3: Allison Park, PA 15101
   - name: Cranberry Town Square Market
-    dates: Every Friday 6/5/26 - 9/4/26
+    dates: "2026-06-05, 2026-06-12, 2026-06-19, 2026-06-26, 2026-07-03, 2026-07-10, 2026-07-17, 2026-07-24, 2026-07-31, 2026-08-07, 2026-08-14, 2026-08-21, 2026-08-28, 2026-09-04"
+    displayDates: Every Friday 6/5/26 - 9/4/26
     times: 3 - 7 pm
     address1: Cranberry Twp. Municipal Building
     address2: 2525 Rochester Road
     address3: Cranberry Twp. PA 16066
   - name: Richland Swim Club
-    dates: 6/9/26, 6/11/26, 6/18/26
+    dates: "2026-06-09, 2026-06-11, 2026-06-18"
     times: Time TBD
     address1: 4104 Dickey Rd
     address2: Gibsonia, PA 15044
   - name: Hartwood Acres Summer Concert Series
-    dates: 6/14/26, 8/9/26
+    dates: "2026-06-14, 2026-08-09"
     times: Time TBD
     address1: Hartwood Acres Amphitheater
     address2: 4000 Middle Rd
     address3: Allison Park, PA 15101
   - name: DLYB Summer Picnic
-    dates: 6/20/26
+    dates: "2026-06-20"
     times: Time TBD
     address1: 50 Bairdford Park Rd
     address2: Gibsonia, PA 15044
   - name: Pine Farmers Market
-    dates: 7/2/26, 7/16/26, TBD additional dates
+    dates: "2026-07-02, 2026-07-16"
     times: 4 - 6:30 pm
     address1: Pine Community Park
     address2: 100 Pine Park Dr
     address3: Wexford, PA 15090
   - name: Hampton Community Day
-    dates: 7/3/26
+    dates: "2026-07-03"
     times: Time TBD
     address1: Hampton Community Park
     address2: 3200 Lochner Way
     address3: Allison Park, PA 15101
   - name: DLYB Freedom Classic
-    dates: 7/11/26, 7/12/26
+    dates: "2026-07-11, 2026-07-12"
     times: Time TBD
     address1: Bairdford Park
     address2: 50 Bairdford Park Rd
     address3: Gibsonia, PA 15044
   - name: Ohio Township Community Day
-    dates: 7/18/26
+    dates: "2026-07-18"
     times: Time TBD
     address1: Ohio Township Community Park
     address2: 325 Nicholson Rd
     address3: Sewickley, PA 15143
   - name: Richland Community Day
-    dates: 8/8/26
+    dates: "2026-08-08"
     times: Time TBD
     address1: Richland Community Park
     address2: 1157 Van Velsor Dr
     address3: Bakerstown, PA 15007
   - name: East Deer Summer Festival
-    dates: 8/15
+    dates: "2026-08-15"
     times: Time TBD
     address1: East Deer Memorial Field
     address2: 927 Freeport Road
     address3: Creighton, PA 15030
   - name: West Deer Food Truck Night
-    dates: 8/18
+    dates: "2026-08-18"
     times: Time TBD
     address1: Address TBD
   - name: Marshal Community Day
-    dates: 8/22
+    dates: "2026-08-22"
     times: Time TBD
     address1: Knob Hill Park
     address2: 415 Knob Rd
     address3: Wexford, PA 15090
   - name: New Sewickley Community Day
-    dates: 9/12/26
+    dates: "2026-09-12"
     times: Time TBD
     address1: Green Valley Park
     address2: 184 Snyder Drive
     address3: Rochester, PA  15074
   - name: McCandless Community Day
-    dates: 9/19/26
+    dates: "2026-09-19"
     times: Time TBD
     address1: 9955 Grubbs Road
     address2: Wexford, PA 15090

@@ -7,6 +7,15 @@ import Layout from "../components/Layout";
 import PageHeader from "../components/PageHeader/PageHeader";
 import "./events-page.scss";
 
+const formatDisplayDates = (datesStr) =>
+  datesStr
+    .split(',')
+    .map((d) => {
+      const dt = new Date(`${d.trim()}T12:00:00`);
+      return `${dt.getMonth() + 1}/${dt.getDate()}/${String(dt.getFullYear()).slice(2)}`;
+    })
+    .join(', ');
+
 export const EventsPageTemplate = ({
   heading,
   introduction,
@@ -26,7 +35,7 @@ export const EventsPageTemplate = ({
                 return (
                   <div className="event-block" key={index}>
                     <div className="event-title">{event.name}</div>
-                    <div className="event-text">{event.dates}</div>
+                    <div className="event-text">{event.displayDates || formatDisplayDates(event.dates)}</div>
                     <div className="event-text">{event.times}</div>
                     <div className="event-text">
                       {event.address1}
@@ -56,25 +65,42 @@ const EventsPage = ({ data, location }) => {
 
   const eventSchemas =
     showTable && Array.isArray(events)
-      ? events.map((event) => ({
-          '@context': 'https://schema.org',
-          '@type': 'Event',
-          name: event.name,
-          startDate: event.dates,
-          description: `Find Shivers Shaved Ice & Dirty Soda at ${event.name}`,
-          eventStatus: 'https://schema.org/EventScheduled',
-          eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
-          location: {
-            '@type': 'Place',
-            name: event.address1,
-            address: [event.address2, event.address3].filter(Boolean).join(', '),
-          },
-          organizer: {
-            '@type': 'Organization',
-            name: 'Shivers Shaved Ice & Dirty Soda',
-            url: 'https://www.shiverspgh.com',
-          },
-        }))
+      ? events.flatMap((event) => {
+          const dates = event.dates.split(',').map((d) => d.trim()).filter(Boolean);
+          return dates.map((isoDate) => ({
+            '@context': 'https://schema.org',
+            '@type': 'Event',
+            name: event.name,
+            startDate: isoDate,
+            endDate: isoDate,
+            image: 'https://www.shiverspgh.com/img/og-image.png',
+            description: `Find Shivers Shaved Ice & Dirty Soda at ${event.name}`,
+            eventStatus: 'https://schema.org/EventScheduled',
+            eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+            location: {
+              '@type': 'Place',
+              name: event.address1,
+              address: [event.address2, event.address3].filter(Boolean).join(', '),
+            },
+            organizer: {
+              '@type': 'Organization',
+              name: 'Shivers Shaved Ice & Dirty Soda',
+              url: 'https://www.shiverspgh.com',
+            },
+            offers: {
+              '@type': 'Offer',
+              price: '0',
+              priceCurrency: 'USD',
+              availability: 'https://schema.org/InStock',
+              description: 'No ticket required',
+            },
+            performer: {
+              '@type': 'Organization',
+              name: 'Shivers Shaved Ice & Dirty Soda',
+              url: 'https://www.shiverspgh.com',
+            },
+          }));
+        })
       : [];
 
   return (
@@ -113,6 +139,7 @@ export const aboutPageQuery = graphql`
         events {
           name
           dates
+          displayDates
           times
           address1
           address2
