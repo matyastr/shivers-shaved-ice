@@ -16,6 +16,30 @@ const formatDisplayDates = (datesStr) =>
     })
     .join(', ');
 
+const parseTimeStr = (timeStr, fallbackMeridiem) => {
+  const match = timeStr.trim().match(/^(\d+)(?::(\d+))?\s*(am|pm)?$/i);
+  if (!match) return null;
+  let hours = parseInt(match[1], 10);
+  const minutes = parseInt(match[2] || '0', 10);
+  const meridiem = (match[3] || fallbackMeridiem || '').toLowerCase();
+  if (meridiem === 'pm' && hours !== 12) hours += 12;
+  if (meridiem === 'am' && hours === 12) hours = 0;
+  return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
+};
+
+const parseTimes = (timesStr) => {
+  if (!timesStr || /tbd/i.test(timesStr)) return { startTime: null, endTime: null };
+  const parts = timesStr.split(/\s*-\s*/);
+  if (parts.length < 2) return { startTime: null, endTime: null };
+  const endStr = parts[parts.length - 1].trim();
+  const startStr = parts[0].trim();
+  const endMeridiem = (endStr.match(/(am|pm)/i) || [])[1];
+  return {
+    startTime: parseTimeStr(startStr, endMeridiem),
+    endTime: parseTimeStr(endStr, null),
+  };
+};
+
 export const EventsPageTemplate = ({
   heading,
   introduction,
@@ -67,12 +91,13 @@ const EventsPage = ({ data, location }) => {
     showTable && Array.isArray(events)
       ? events.flatMap((event) => {
           const dates = event.dates.split(',').map((d) => d.trim()).filter(Boolean);
+          const { startTime, endTime } = parseTimes(event.times);
           return dates.map((isoDate) => ({
             '@context': 'https://schema.org',
             '@type': 'Event',
             name: event.name,
-            startDate: isoDate,
-            endDate: isoDate,
+            startDate: startTime ? `${isoDate}T${startTime}` : isoDate,
+            endDate: endTime ? `${isoDate}T${endTime}` : isoDate,
             image: 'https://www.shiverspgh.com/img/og-image.png',
             description: `Find Shivers Shaved Ice & Dirty Soda at ${event.name}`,
             eventStatus: 'https://schema.org/EventScheduled',
@@ -93,6 +118,8 @@ const EventsPage = ({ data, location }) => {
               priceCurrency: 'USD',
               availability: 'https://schema.org/InStock',
               description: 'No ticket required',
+              url: 'https://www.shiverspgh.com/events/',
+              validFrom: isoDate,
             },
             performer: {
               '@type': 'Organization',
