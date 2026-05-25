@@ -5,15 +5,16 @@ introduction: We are looking forward to visiting an event near you!
 showTable: true
 events:
   - name: Sturbridge Neighborhood Food Truck Night
-    dates: "2026-05-14, 2026-06-25, 2026-07-09"
+    dates: "2026-06-25, 2026-07-09"
     times: 4:30 - 7 pm
     address1: 1694 Sturbridge drive
     address2: Sewickley, PA 15143
   - name: Ohio Township Soccer Games
-    dates: "2026-05-16, 2026-05-23, 2026-05-30, 2026-06-06, 2026-06-13"
+    dates: "2026-05-30, 2026-06-06, 2026-06-13"
     times: 9:30 am - 12 pm
-    address1: 325 Nicholson Rd
-    address2: Sewickley, PA 15143
+    address1: Ohio Township Community Park
+    address2: 325 Nicholson Rd
+    address3: Sewickley, PA 15143
   - name: Hampton Soccer Club Senior Rec Night
     dates: "2026-05-29"
     times: 5 - 8 pm
@@ -39,6 +40,12 @@ events:
     times: Time TBD
     address1: 4104 Dickey Rd
     address2: Gibsonia, PA 15044
+  - name: Ohio Township Jr. Games
+    dates: "2026-07-13"
+    times: 10 am - 12:30 pm
+    address1: Ohio Township Community Park
+    address2: 325 Nicholson Rd
+    address3: Sewickley, PA 15143 
   - name: Hartwood Acres Summer Concert Series
     dates: "2026-06-14, 2026-08-09"
     times: Time TBD
