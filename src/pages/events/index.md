@@ -5,57 +5,40 @@ introduction: We are looking forward to visiting an event near you!
 showTable: true
 events:
   - name: Sturbridge Neighborhood Food Truck Night
-    dates: "2026-06-25, 2026-07-09"
+    dates: "2026-07-09"
     times: 4:30 - 7 pm
     address1: 1694 Sturbridge drive
     address2: Sewickley, PA 15143
-  - name: Ohio Township Soccer Games
-    dates: "2026-05-30, 2026-06-06, 2026-06-13"
-    times: 9:30 am - 12 pm
-    address1: Ohio Township Community Park
-    address2: 325 Nicholson Rd
-    address3: Sewickley, PA 15143
-  - name: Hampton Soccer Club Senior Rec Night
-    dates: "2026-05-29"
-    times: 5 - 8 pm
-    address1: Hampton Community Center Soccer Fields
-    address2: 3200 Lochner Way
-    address3: Allison Park, PA 15101
+  # - name: Ohio Township Soccer Games
+  #   dates: "2026-05-30, 2026-06-06, 2026-06-13"
+  #   times: 9:30 am - 12 pm
+  #   address1: Ohio Township Community Park
+  #   address2: 325 Nicholson Rd
+  #   address3: Sewickley, PA 15143
+  # - name: Hampton Soccer Club Senior Rec Night
+  #   dates: "2026-05-29"
+  #   times: 5 - 8 pm
+  #   address1: Hampton Community Center Soccer Fields
+  #   address2: 3200 Lochner Way
+  #   address3: Allison Park, PA 15101
   - name: Hampton Farmers Market
-    dates: "2026-06-17, 2026-06-24, 2026-07-01, 2026-07-08, 2026-07-15, 2026-07-22, 2026-07-29, 2026-08-05, 2026-08-12, 2026-08-19, 2026-08-26"
+    dates: "2026-07-01, 2026-07-08, 2026-07-15, 2026-07-22, 2026-07-29, 2026-08-05, 2026-08-12, 2026-08-19, 2026-08-26"
     displayDates: Every Wednesday 6/17/26 - 8/26/26
     times: 3 - 7 pm
     address1: Hampton Community Center
     address2: 3200 Lochner Way
     address3: Allison Park, PA 15101
   - name: Cranberry Town Square Market
-    dates: "2026-06-05, 2026-06-12, 2026-06-19, 2026-06-26, 2026-07-03, 2026-07-10, 2026-07-17, 2026-07-24, 2026-07-31, 2026-08-07, 2026-08-14, 2026-08-21, 2026-08-28, 2026-09-04"
+    dates: "2026-07-10, 2026-07-17, 2026-07-24, 2026-07-31, 2026-08-07, 2026-08-14, 2026-08-21, 2026-08-28, 2026-09-04"
     displayDates: Every Friday 6/5/26 - 9/4/26
     times: 3 - 7 pm
     address1: Cranberry Twp. Municipal Building
     address2: 2525 Rochester Road
     address3: Cranberry Twp. PA 16066
   - name: Richland Swim Club
-    dates: "2026-06-09, 2026-06-11, 2026-06-18"
-    times: Time TBD
+    dates: "2026-07-08"
+    times: 4 - 9 pm
     address1: 4104 Dickey Rd
-    address2: Gibsonia, PA 15044
-  - name: Ohio Township Jr. Games
-    dates: "2026-07-13"
-    times: 10 am - 12:30 pm
-    address1: Ohio Township Community Park
-    address2: 325 Nicholson Rd
-    address3: Sewickley, PA 15143 
-  - name: Hartwood Acres Summer Concert Series
-    dates: "2026-06-14, 2026-08-09"
-    times: Time TBD
-    address1: Hartwood Acres Amphitheater
-    address2: 4000 Middle Rd
-    address3: Allison Park, PA 15101
-  - name: DLYB Summer Picnic
-    dates: "2026-06-20"
-    times: Time TBD
-    address1: 50 Bairdford Park Rd
     address2: Gibsonia, PA 15044
   - name: Pine Farmers Market
     dates: "2026-07-02, 2026-07-16"
@@ -65,10 +48,14 @@ events:
     address3: Wexford, PA 15090
   - name: Hampton Community Day
     dates: "2026-07-03"
-    times: Time TBD
+    times: 4 - 9 pm
     address1: Hampton Community Park
     address2: 3200 Lochner Way
     address3: Allison Park, PA 15101
+  - name: Mars 4th of July Celebration
+    dates: "2026-07-04"
+    times: 2 - 6 pm
+    address1: Downtown Mars, PA
   - name: DLYB Freedom Classic
     dates: "2026-07-11, 2026-07-12"
     times: Time TBD
@@ -121,6 +108,12 @@ events:
     times: Time TBD
     address1: 9955 Grubbs Road
     address2: Wexford, PA 15090
+  - name: RAW'K Fest
+    dates: "2026-10-10"
+    times: 8 am - 1:30 pm
+    address1: RAW Training
+    address2: 2332 Wildwood Rd Suite 200
+    address3: Gibsonia, PA 15044
 
   # - name: Santacroce Youth Football Practice
   #   dates: Every Tuesday starting 7/22/25 through fall
