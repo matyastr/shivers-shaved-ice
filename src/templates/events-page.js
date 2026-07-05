@@ -105,7 +105,9 @@ const EventsPage = ({ data, location }) => {
             location: {
               '@type': 'Place',
               name: event.address1,
-              address: [event.address2, event.address3].filter(Boolean).join(', '),
+              address:
+                [event.address2, event.address3].filter(Boolean).join(', ') ||
+                event.address1,
             },
             organizer: {
               '@type': 'Organization',

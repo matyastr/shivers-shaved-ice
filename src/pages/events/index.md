@@ -46,16 +46,6 @@ events:
     address1: Pine Community Park
     address2: 100 Pine Park Dr
     address3: Wexford, PA 15090
-  - name: Hampton Community Day
-    dates: "2026-07-03"
-    times: 4 - 9 pm
-    address1: Hampton Community Park
-    address2: 3200 Lochner Way
-    address3: Allison Park, PA 15101
-  - name: Mars 4th of July Celebration
-    dates: "2026-07-04"
-    times: 2 - 6 pm
-    address1: Downtown Mars, PA
   - name: DLYB Freedom Classic
     dates: "2026-07-11, 2026-07-12"
     times: Time TBD
