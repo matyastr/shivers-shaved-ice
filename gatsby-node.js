@@ -46,6 +46,27 @@ exports.createPages = ({ actions, graphql }) => {
   })
 }
 
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+  createTypes(`
+    type Frontmatter {
+      image: File @fileByRelativePath
+      intro: Intro
+      sections: [Sections]
+      categories: [Categories]
+    }
+    type Intro {
+      image: File @fileByRelativePath
+    }
+    type Sections {
+      image: File @fileByRelativePath
+    }
+    type Categories {
+      categoryImage: File @fileByRelativePath
+    }
+  `)
+}
+
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
   fmImagesToRelative(node) // convert image paths for gatsby images
