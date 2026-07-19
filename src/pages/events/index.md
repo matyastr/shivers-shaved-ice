@@ -4,11 +4,6 @@ heading: Events
 introduction: We are looking forward to visiting an event near you!
 showTable: true
 events:
-  - name: Sturbridge Neighborhood Food Truck Night
-    dates: "2026-07-09"
-    times: 4:30 - 7 pm
-    address1: 1694 Sturbridge drive
-    address2: Sewickley, PA 15143
   # - name: Ohio Township Soccer Games
   #   dates: "2026-05-30, 2026-06-06, 2026-06-13"
   #   times: 9:30 am - 12 pm
@@ -22,7 +17,7 @@ events:
   #   address2: 3200 Lochner Way
   #   address3: Allison Park, PA 15101
   - name: Hampton Farmers Market
-    dates: "2026-07-01, 2026-07-08, 2026-07-15, 2026-07-22, 2026-07-29, 2026-08-05, 2026-08-12, 2026-08-19, 2026-08-26"
+    dates: "2026-07-22, 2026-07-29, 2026-08-05, 2026-08-12, 2026-08-19, 2026-08-26"
     displayDates: Every Wednesday 6/17/26 - 8/26/26
     times: 3 - 7 pm
     address1: Hampton Community Center
@@ -35,29 +30,24 @@ events:
     address1: Cranberry Twp. Municipal Building
     address2: 2525 Rochester Road
     address3: Cranberry Twp. PA 16066
-  - name: Richland Swim Club
-    dates: "2026-07-08"
-    times: 4 - 9 pm
-    address1: 4104 Dickey Rd
-    address2: Gibsonia, PA 15044
   - name: Pine Farmers Market
-    dates: "2026-07-02, 2026-07-16"
+    dates: "2026-07-23"
     times: 4 - 6:30 pm
     address1: Pine Community Park
     address2: 100 Pine Park Dr
     address3: Wexford, PA 15090
-  - name: DLYB Freedom Classic
-    dates: "2026-07-11, 2026-07-12"
-    times: Time TBD
-    address1: Bairdford Park
-    address2: 50 Bairdford Park Rd
-    address3: Gibsonia, PA 15044
-  - name: Ohio Township Community Day
-    dates: "2026-07-18"
-    times: Time TBD
-    address1: Ohio Township Community Park
-    address2: 325 Nicholson Rd
-    address3: Sewickley, PA 15143
+  # - name: DLYB Freedom Classic
+  #   dates: "2026-07-11, 2026-07-12"
+  #   times: Time TBD
+  #   address1: Bairdford Park
+  #   address2: 50 Bairdford Park Rd
+  #   address3: Gibsonia, PA 15044
+  # - name: Ohio Township Community Day
+  #   dates: "2026-07-18"
+  #   times: Time TBD
+  #   address1: Ohio Township Community Park
+  #   address2: 325 Nicholson Rd
+  #   address3: Sewickley, PA 15143
   - name: Richland Community Day
     dates: "2026-08-08"
     times: Time TBD
