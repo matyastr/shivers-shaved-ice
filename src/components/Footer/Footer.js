@@ -19,7 +19,7 @@ const Footer = () => (
             </div>
           </div>
           <div className="footer-copyright font-secondary">
-            &copy; Shivers Shaved Ice
+            &copy; 2026 Shivers Shaved Ice
           </div>
         </div>
         <div className="footer-row-logo">
