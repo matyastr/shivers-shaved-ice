@@ -81,12 +81,12 @@ events:
     times: 5 - 7 pm
     address1: 423 Fox Chapel Rd
     address2: Pittsburgh, PA 15238
-  - name: North Allegheny Youth Football Games
+  - name: North Allegheny Youth Football Practices
     dates: "2026-10-01, 2026-10-08"
-    times: 8 am - 1:30 pm
-    address1: RAW Training
-    address2: 2332 Wildwood Rd Suite 200
-    address3: Gibsonia, PA 15044
+    times: 6 - 8 pm
+    address1: Blueberry Hill Park
+    address2: Blaine's Way
+    address3: Sewickley, PA 15143
   - name: North Allegheny Youth Football Family Showdown
     dates: "2026-10-07"
     times: 6 pm - 8 pm
