@@ -54,45 +54,40 @@ events:
   #   address1: Knob Hill Park
   #   address2: 415 Knob Rd
   #   address3: Wexford, PA 15090
-  - name: PRYFC Richland Football Practice
-    dates: "2026-09-08, 2026-09-15"
-    times: 7 - 9 pm
-    address1: Richland Community Park
-    address2: 1157 Van Velsor Dr
-    address3: Bakerstown, PA 15007
+  # - name: PRYFC Richland Football Practice
+  #   dates: "2026-09-08, 2026-09-15"
+  #   times: 7 - 9 pm
+  #   address1: Richland Community Park
+  #   address2: 1157 Van Velsor Dr
+  #   address3: Bakerstown, PA 15007
   - name: PRYFC Pine Football Practice
-    dates: "2026-09-10, 2026-09-17"
+    dates: "2026-09-25"
     times: 7 - 9 pm
     address1: Pine Community Park
     address2: 100 Pine Park Dr
     address3: Wexford, PA 15090
-  - name: New Sewickley Community Day
-    dates: "2026-09-12"
-    times: Time TBD
-    address1: Green Valley Park
-    address2: 184 Snyder Drive
-    address3: Rochester, PA  15074
-  - name: St. Luke Lutheran Back to School Event
-    dates: "2026-09-18"
-    times: 5 - 8 pm
-    address1: 330 Hannahstown Rd
-    address2: Cabot, PA 16023   
-  - name: McCandless Community Day
-    dates: "2026-09-19"
-    times: Time TBD
-    address1: 9955 Grubbs Road
-    address2: Wexford, PA 15090
-  - name: Mars Applefest
-    dates: "2026-10-03"
-    times: 10 - 4 pm
-    address1: Downtown Mars, PA
-  - name: Tiger Pride Football Games
+  # - name: St. Luke Lutheran Back to School Event
+  #   dates: "2026-09-18"
+  #   times: 5 - 8 pm
+  #   address1: 330 Hannahstown Rd
+  #   address2: Cabot, PA 16023   
+  # - name: McCandless Community Day
+  #   dates: "2026-09-19"
+  #   times: Time TBD
+  #   address1: 9955 Grubbs Road
+  #   address2: Wexford, PA 15090
+  - name: Shadyside Academy Football Tailgate
+    dates: "2026-09-25"
+    times: 5 - 7 pm
+    address1: 423 Fox Chapel Rd
+    address2: Pittsburgh, PA 15238
+  - name: North Allegheny Youth Football Games
     dates: "2026-10-01, 2026-10-08"
     times: 8 am - 1:30 pm
     address1: RAW Training
     address2: 2332 Wildwood Rd Suite 200
     address3: Gibsonia, PA 15044
-  - name: Tiger Pride Football Family Showdown
+  - name: North Allegheny Youth Football Family Showdown
     dates: "2026-10-07"
     times: 6 pm - 8 pm
     address1: Blueberry Hill Park
@@ -104,7 +99,7 @@ events:
     address1: RAW Training
     address2: 2332 Wildwood Rd Suite 200
     address3: Gibsonia, PA 15044
-  - name: PRYFC Pine Football Games
+  - name: PRYFC Pine Football Game
     dates: "2026-10-10"
     times: 3 - 6 pm
     address1: Pine Community Park
