@@ -75,7 +75,7 @@ export const EventsPageTemplate = ({
         )}
         {!showTable && (
           <div className="events-hide-table">
-            We have concluded our 2025 season. Thank you to everyone who made it a memorable year! <br /><br /> Want a tasty treat at your 2026 event? Please contact us today!
+            We have concluded our 2026 season. Thank you to everyone who made it a memorable year! <br /><br /> Want a tasty treat at your 2027 event? Please contact us today!
           </div>
         )}
       </div>

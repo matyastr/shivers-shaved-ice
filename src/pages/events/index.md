@@ -2,7 +2,7 @@
 templateKey: events-page
 heading: Events
 introduction: We are looking forward to visiting an event near you!
-showTable: true
+showTable: false
 events:
   # - name: Ohio Township Soccer Games
   #   dates: "2026-05-30, 2026-06-06, 2026-06-13"
